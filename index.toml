@@ -1,12 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/fancymenu/assets/gui/button_hover.png"
-hash = "4d31b952478e54a3ad6241c7aaccd6d39c4b9219aff10d1d5eab92e238af3192"
-
-[[files]]
 file = "config/fancymenu/assets/gui/button.png"
 hash = "e04d99ac20c1ed02b7b0a053487ec86f713fc13b04a9ab0d94012669eb4819e6"
+
+[[files]]
+file = "config/fancymenu/assets/gui/button_hover.png"
+hash = "4d31b952478e54a3ad6241c7aaccd6d39c4b9219aff10d1d5eab92e238af3192"
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
@@ -34,7 +34,7 @@ hash = "7894e8baa12b92e0001be16545ad1b5a68ab8a3100372b51a240083b5bb18cf2"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "0ca6f5b7af8e11b2f568222df097d8202377d6546a7f9d48b1cf8669d1a64ed5"
+hash = "11ebb8a9986552ab3a54b7094d2f9e57431e3165651bddbb9b6e4e7327fca755"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -53,20 +53,20 @@ file = "config/fancymenu/ui_themes/cozy_campfire.json"
 hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
 
 [[files]]
-file = "config/fancymenu/ui_themes/dark_high_contrast.json"
-hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
-
-[[files]]
 file = "config/fancymenu/ui_themes/dark.json"
 hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
 
 [[files]]
-file = "config/fancymenu/ui_themes/light_high_contrast.json"
-hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
 hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/pumpkin_soup.json"
@@ -82,7 +82,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "mods-manifest.json"
