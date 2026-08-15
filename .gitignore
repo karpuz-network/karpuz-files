@@ -1,0 +1,26 @@
+# Mod JAR dosyalari (launcher tarafindan indirilecek)
+mods/*.jar
+mods/*.jar.bak
+mods/*.jarbak
+
+# Packwiz onbellek
+.packwiz/
+
+# IDE & OS dosyalari
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Minecraft calisma zamani dosyalari
+logs/
+crash-reports/
+*.log
+saves/
+screenshots/
+replay_recordings/
+local/
+.mixin.out/
+backups/

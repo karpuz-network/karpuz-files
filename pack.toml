@@ -1,0 +1,13 @@
+name = "Karpuz Pack 1.20.1"
+author = "Karpuz Network"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5ccc0bd504e3203975597b7bbcad88f6438173a755027c160b3e03f20f952f94"
+
+[versions]
+forge = "47.4.22"
+minecraft = "1.20.1"
