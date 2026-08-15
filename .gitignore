@@ -6,6 +6,9 @@ mods/*.jarbak
 # Packwiz onbellek
 .packwiz/
 
+# Local notlar ve taslaklar
+NOTES.md
+
 # IDE & OS dosyalari
 .idea/
 .vscode/
