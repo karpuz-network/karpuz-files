@@ -1,0 +1,10 @@
+.git/**
+.github/**
+.editorconfig
+.gitattributes
+.gitignore
+.packwizignore
+CHANGELOG.md
+README.md
+NOTES.md
+
