@@ -7,4 +7,5 @@
 CHANGELOG.md
 README.md
 NOTES.md
-
+scripts/**
+tests/**
