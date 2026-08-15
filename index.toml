@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".editorconfig"
-hash = "057ab24cf1b6dda36cd5b5bff5799cdef9ce62f49576393b2e1ab5486dae7d0f"
-
-[[files]]
-file = ".github/workflows/refresh-hashes.yml"
-hash = "3a241aee607acfaf6d336017986b8398df80d6613931caa7c1130b7a4fbeb954"
-
-[[files]]
-file = ".github/workflows/validate.yml"
-hash = "82db1d7f320a495bf961a9d2d3f54c007a1bf9c0bf2c9b5f5393f3a19a9b8b1d"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "79d32e74fbee78e702f2e4ad1e5d3ffeee251a0637f9652b3e17b3f22f8da220"
-
-[[files]]
-file = "README.md"
-hash = "06c652bbc5ce28749ebfaf7fad835d4c278d55073bb0f66a78a678d1d1cb0cd6"
-
-[[files]]
 file = "config/fancymenu/assets/gui/button.png"
 hash = "e04d99ac20c1ed02b7b0a053487ec86f713fc13b04a9ab0d94012669eb4819e6"
 
@@ -103,6 +83,10 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "mods-manifest.json"
+hash = "befac645993b7c9bc0b84f56b11e6ea1ed04ff9e879f4870c9a656ccc8aa0198"
 
 [[files]]
 file = "options.txt"
