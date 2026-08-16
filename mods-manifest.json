@@ -1,9 +1,9 @@
 {
   "format": 1,
   "archive": {
-    "url": "https://mods.karpuz.network/Karpuz-Network-Modpack-38f9592ff4f1187d.zip",
-    "size": 542367657,
-    "sha256": "38f9592ff4f1187d5be56c8b5f5ab4d8d3fefff62451ead895b6e7d55e32785d"
+    "url": "https://mods.karpuz.network/Karpuz-Network-Modpack.zip",
+    "size": 480912572,
+    "sha256": "5bbcebafe1d972a320b07af4b8b065124d4b357d7588ce3f46c7f9f177b0c5c2"
   },
   "files": [
     {
@@ -37,9 +37,9 @@
       "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
     },
     {
-      "name": "ApothicAttributes-1.20.1-1.3.7.jar",
-      "size": 227511,
-      "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+      "name": "Apothic-Attributes-Mod-Forge-NeoForge-1.20.1.jar",
+      "size": 234410,
+      "sha256": "8a6e853667f6992d24e4e08628677f3d50f6de6dd9921b0b8bcd476dcdfd4b06"
     },
     {
       "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
@@ -87,21 +87,6 @@
       "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
     },
     {
-      "name": "BuildingWands-forge-MC1.20.1-3.0.5.jar",
-      "size": 443587,
-      "sha256": "cfbfe44b5c3aa34296ccb9701e1a53ec1fd2f52858be45e335d99b405c760eb8"
-    },
-    {
-      "name": "canary-mc1.20.1-0.3.3.jar",
-      "size": 594191,
-      "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
-    },
-    {
-      "name": "Chunky-1.3.146.jar",
-      "size": 341451,
-      "sha256": "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141"
-    },
-    {
       "name": "citadel-2.6.3-1.20.1.jar",
       "size": 3185275,
       "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
@@ -110,11 +95,6 @@
       "name": "cloth-config-11.1.136-forge.jar",
       "size": 1181413,
       "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
-    },
-    {
-      "name": "Clumps-forge-1.20.1-12.0.0.4.jar",
-      "size": 20299,
-      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
     },
     {
       "name": "Controlling-forge-1.20.1-12.0.2.jar",
@@ -130,11 +110,6 @@
       "name": "curios-forge-5.14.1+1.20.1.jar",
       "size": 398066,
       "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
-    },
-    {
-      "name": "dcintegration-forge-3.0.7.1-1.20.1.jar",
-      "size": 16358023,
-      "sha256": "8da9fbc532229b4d55b4857c7fc28ded385ca6e621e95ba393a584aadef7868d"
     },
     {
       "name": "Dungeon Crawl-1.20.1-2.3.15.jar",
@@ -157,7 +132,7 @@
       "sha256": "6f4726e586300d0611c9972f89959be9711c4f25c48d60408e5aa5b19ddd318d"
     },
     {
-      "name": "fancymenu_forge_3.9.9_MC_1.20.1.jar",
+      "name": "fancymenu_forge_3.9.9_MC_1.20.1 (1).jar",
       "size": 26174014,
       "sha256": "686253f50d103e21cc04b8710ab9ba4ba788916ad852620040308f3f08512fab"
     },
@@ -185,11 +160,6 @@
       "name": "ftb-quests-forge-2001.4.22.jar",
       "size": 1255469,
       "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
-    },
-    {
-      "name": "ftb-ranks-forge-2001.1.7.jar",
-      "size": 87362,
-      "sha256": "ec654cb94b3be8217da91f114667d7b0170c7be2ed533ac7e4faa337d1f5b872"
     },
     {
       "name": "ftb-teams-forge-2001.3.2.jar",
@@ -227,9 +197,9 @@
       "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
     },
     {
-      "name": "Incendium_1.20.x_v5.3.5.jar",
-      "size": 4638945,
-      "sha256": "96068e4d66ea503efebb1e31d28c2d6ce85db749049463cab9f799c8c0ae1e75"
+      "name": "ItemBorders-1.20.1-forge-1.2.2.jar",
+      "size": 20832,
+      "sha256": "23710606b68c5367ef28d2efa55d8efc4a7d1df8ac1f232e4327977cd1a16b56"
     },
     {
       "name": "inventoryhud.forge.1.20.1-3.4.26.jar",
@@ -262,14 +232,14 @@
       "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
     },
     {
-      "name": "kubejs-forge-2001.6.5-build.14.jar",
-      "size": 1654724,
-      "sha256": "c582dcafa3fd6a1f3cae6008cd22f9c6be19cd43ea8f5ce482e90f53285f896b"
-    },
-    {
       "name": "kubejs_gui_2_1201-forge-1.0.0.jar",
       "size": 192109,
       "sha256": "028189e5df5ae78de8893e8a488b5560dea31e81748599cd6d5aaa47d1695523"
+    },
+    {
+      "name": "kubejs-forge-2001.6.5-build.26.jar",
+      "size": 1658792,
+      "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb"
     },
     {
       "name": "L_Enders_Cataclysm-3.31.jar",
@@ -312,22 +282,12 @@
       "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
     },
     {
-      "name": "missingmodschecker-forge-1.0.1-1.20.1.jar",
-      "size": 407080,
-      "sha256": "1dc1188f5321144299412937f3965990d518376790bd7285b9867acce618332e"
-    },
-    {
-      "name": "modernfix-forge-5.27.66+mc1.20.1.jar",
-      "size": 1002234,
-      "sha256": "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
-    },
-    {
       "name": "modulartoasts-1.0.1.jar",
       "size": 73059,
       "sha256": "a267583495a8657246d195ae8b9a5121fea27c84ea921c3eb5caa778f9b05b57"
     },
     {
-      "name": "morejs-forge-1.20.1-0.10.1.jar",
+      "name": "more.jar",
       "size": 173745,
       "sha256": "bffc387943fb6bdfef8fcb6857aaa285f0a33575c9ada3cd66f54352cdb82892"
     },
@@ -347,16 +307,6 @@
       "sha256": "c850ba870e044f0e18d1dee236dc5863e9ad3b38a70c0741c72813776d35c11e"
     },
     {
-      "name": "Nullscape_1.20.x_v1.2.8.jar",
-      "size": 399214,
-      "sha256": "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5"
-    },
-    {
-      "name": "Placebo-1.20.1-8.6.3 (1).jar",
-      "size": 282474,
-      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
-    },
-    {
       "name": "Placebo-1.20.1-8.6.3.jar",
       "size": 282474,
       "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
@@ -367,11 +317,6 @@
       "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
     },
     {
-      "name": "Quark-4.0-462.jar",
-      "size": 14935230,
-      "sha256": "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478"
-    },
-    {
       "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
       "size": 432753,
       "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
@@ -380,6 +325,21 @@
       "name": "rhino-forge-2001.2.3-build.10.jar",
       "size": 1798244,
       "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
+    },
+    {
+      "name": "sdm_ui_lib-forge-1.20.1-1.8.3.jar",
+      "size": 261631,
+      "sha256": "77c46330599f61aba87999ff4cdbebd12d3ebe62e5cb5134a64ba8b303224af8"
+    },
+    {
+      "name": "SDMEconomy-1.20.1-forge-2.2.0.jar",
+      "size": 51988,
+      "sha256": "9c3a1320fa6dcc864597eb133cbb5e175db9b9aad584b37316ceb07ff09c4b63"
+    },
+    {
+      "name": "SDMMarket-forge-6.4.2.jar",
+      "size": 265833,
+      "sha256": "472e9cd69570a50709309cdb2c42a9526340dd2a332397b83a88d9d6286abfce"
     },
     {
       "name": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -397,19 +357,9 @@
       "sha256": "2d35eff3e2642e8a6f7fb4cc7461211699ee2e32b9644e0d3b3bd6ba1574551c"
     },
     {
-      "name": "skinrestorer-2.10.0+1.20-forge.jar",
-      "size": 278170,
-      "sha256": "2f201b30da26d3a6302be4af0fe89a0cc5bdd91351488443b8ff848b8efdf2ef"
-    },
-    {
       "name": "smallships-forge-1.20.1-2.0.0-b1.4.jar",
       "size": 1816687,
       "sha256": "f79a4dcab3e1c8e4d14467cbfa655f4a16e0f0d0901e8f9bde9e3f5e36735eff"
-    },
-    {
-      "name": "solsauthlogin-1.20.1-1.3.jar",
-      "size": 96643,
-      "sha256": "9faf7a4a4a4e2abeaabd83e747f6e641537e307e1820adc2e068691d2e11f11f"
     },
     {
       "name": "solstitlesystem-1.20.1-1.4.4.jar",
@@ -447,24 +397,19 @@
       "sha256": "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1"
     },
     {
+      "name": "tl_skin_cape_forge_1.20-1.38.jar",
+      "size": 1180127,
+      "sha256": "a6aa1286aa847ff9b6029c8901bbad30e05b4bcbc967142125c35499dfe5f5d3"
+    },
+    {
       "name": "tombstone-1.20.1-9.1.3.jar",
       "size": 2581467,
       "sha256": "9ecfa6768aee0e4f344d866ae51809d34ca5bffcbf9b444b4239419751d259b8"
     },
     {
-      "name": "txnilib-forge-1.0.24-1.20.1.jar",
-      "size": 3743339,
-      "sha256": "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e"
-    },
-    {
       "name": "waystones-forge-1.20.1-14.1.20.jar",
       "size": 533738,
       "sha256": "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
-    },
-    {
-      "name": "Zeta-1.0-31.jar",
-      "size": 1006518,
-      "sha256": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e"
     }
   ]
 }
