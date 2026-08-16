@@ -37,6 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pack.toml index.toml
+          git add index.toml
           git diff --cached --quiet || git commit -m "chore: refresh packwiz index hashes [skip ci]"
           git push
