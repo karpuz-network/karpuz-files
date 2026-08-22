@@ -1,4 +1,4 @@
-name: Refresh Packwiz Index
+name: Validate Pack Metadata
 
 on:
   push:
@@ -11,32 +11,17 @@ on:
       - '.github/**'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  refresh:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          go-version: 'stable'
-          cache: false
+          python-version: '3.12'
 
-      - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@latest
-
-      - name: Refresh index hashes
-        run: packwiz refresh
-
-      - name: Commit updated index
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.toml
-          git diff --cached --quiet || git commit -m "chore: refresh packwiz index hashes [skip ci]"
-          git push
+      - name: Validate Packwiz integrity chain
+        run: python scripts/validate_pack.py

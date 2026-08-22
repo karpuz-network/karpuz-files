@@ -1,13 +1,18 @@
 name = "Karpuz Pack 1.20.1"
 author = "Karpuz Network"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4a0a1355986b1f97bc5e3f4ce8cbc3f69c4de1b4ed3d635f52a00b21c160ee9a"
+hash = "c69efc1f3aaa506d14b509711ea832858bf6c4aed130bec17e5ea422176fc747"
 
 [versions]
 forge = "47.4.22"
 minecraft = "1.20.1"
+
+[karpuz]
+mods-manifest = "mods-manifest.json"
+mods-manifest-hash-format = "sha256"
+mods-manifest-hash = "07d3e5d6abdac9307d902fdc6f0c859c24a9d7a49d029d2803ad1db1ce58ae01"

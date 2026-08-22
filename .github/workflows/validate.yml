@@ -11,33 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          go-version: 'stable'
-          cache: false
+          python-version: '3.12'
 
-      - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@latest
-
-      - name: Refresh and validate index
-        run: |
-          packwiz refresh
-          if ! git diff --quiet index.toml; then
-            echo "::error::index.toml is out of date! Run 'packwiz refresh' locally before pushing."
-            git diff index.toml
-            exit 1
-          fi
-          echo "✅ Pack index is up to date."
-
-      - name: Validate pack structure
-        run: |
-          if [ ! -f "pack.toml" ]; then
-            echo "::error::pack.toml not found!"
-            exit 1
-          fi
-          if [ ! -f "index.toml" ]; then
-            echo "::error::index.toml not found!"
-            exit 1
-          fi
-          echo "✅ Pack structure is valid."
+      - name: Validate Packwiz integrity chain
+        run: python scripts/validate_pack.py

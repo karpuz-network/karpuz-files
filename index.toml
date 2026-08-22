@@ -1,121 +1,581 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".editorconfig"
-hash = "057ab24cf1b6dda36cd5b5bff5799cdef9ce62f49576393b2e1ab5486dae7d0f"
-
-[[files]]
-file = ".github/workflows/refresh-hashes.yml"
-hash = "3a241aee607acfaf6d336017986b8398df80d6613931caa7c1130b7a4fbeb954"
-
-[[files]]
-file = ".github/workflows/validate.yml"
-hash = "82db1d7f320a495bf961a9d2d3f54c007a1bf9c0bf2c9b5f5393f3a19a9b8b1d"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "79d32e74fbee78e702f2e4ad1e5d3ffeee251a0637f9652b3e17b3f22f8da220"
-
-[[files]]
-file = "README.md"
-hash = "06c652bbc5ce28749ebfaf7fad835d4c278d55073bb0f66a78a678d1d1cb0cd6"
-
-[[files]]
 file = "config/fancymenu/assets/gui/button.png"
 hash = "e04d99ac20c1ed02b7b0a053487ec86f713fc13b04a9ab0d94012669eb4819e6"
+size = 7528
 
 [[files]]
 file = "config/fancymenu/assets/gui/button_hover.png"
 hash = "4d31b952478e54a3ad6241c7aaccd6d39c4b9219aff10d1d5eab92e238af3192"
+size = 7565
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
 hash = "68ae2b65a422c0f2ecb8f800e4294797ab155eefd5f2d648c0d53c33b755f46d"
+size = 193489
 
 [[files]]
 file = "config/fancymenu/assets/splashtext.txt"
 hash = "ec77ca3abec6a65505ca657ab81c5649cf30ad2141d011e547223ceacb27e2cd"
+size = 98
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ca5b033fa95bfa4a2beafaab19f5f2ca82b38728805b4868b71d14d92e95ddb0"
+size = 306
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "59156fa7082fa6e92b8163d8dc87ab6b854a44d0797c8389147d8a3372fd01b7"
+size = 200
 
 [[files]]
 file = "config/fancymenu/customization/disclaimer_layout.txt"
 hash = "c3a4201abef04191dd6cd5395c84a16a50763bfe3ffecc814566b1e08525e124"
+size = 16102
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
 hash = "7894e8baa12b92e0001be16545ad1b5a68ab8a3100372b51a240083b5bb18cf2"
+size = 67007
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "11ebb8a9986552ab3a54b7094d2f9e57431e3165651bddbb9b6e4e7327fca755"
+hash = "0ca6f5b7af8e11b2f568222df097d8202377d6546a7f9d48b1cf8669d1a64ed5"
+size = 219
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+size = 42
 
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab"
+size = 4400
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
 hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+size = 9349
 
 [[files]]
 file = "config/fancymenu/ui_themes/cozy_campfire.json"
 hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+size = 9347
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
 hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+size = 9329
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
 hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+size = 9359
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
 hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+size = 9331
 
 [[files]]
 file = "config/fancymenu/ui_themes/light_high_contrast.json"
 hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+size = 9361
 
 [[files]]
 file = "config/fancymenu/ui_themes/pumpkin_soup.json"
 hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+size = 9345
 
 [[files]]
 file = "config/fancymenu/ui_themes/purple_void.json"
 hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+size = 9343
 
 [[files]]
 file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+size = 9347
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+size = 25
+
+[[files]]
+file = "mods/aether-1.20.1-1.5.2-neoforge.jar"
+hash = "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5"
+size = 39746319
+
+[[files]]
+file = "mods/alexscaves-2.0.2.jar"
+hash = "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+size = 74871657
+
+[[files]]
+file = "mods/alexsmobs-1.22.9.jar"
+hash = "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+size = 26350793
+
+[[files]]
+file = "mods/allthemodium-1.20.1-47.1.25-2.5.7.jar"
+hash = "8846802f2eba917da079bbb11081ed66c73afc5d81cceb2270e15c627b722037"
+size = 1822082
+
+[[files]]
+file = "mods/alltheores-1.20.1-47.1.3-2.2.4.jar"
+hash = "b3aee8294e1a285f875192745194b910d945a09beeb050f25a2eb37ddc497408"
+size = 1073852
+
+[[files]]
+file = "mods/Apotheosis-1.20.1-7.4.8.jar"
+hash = "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
+size = 2803994
+
+[[files]]
+file = "mods/ApothicAttributes-1.20.1-1.3.7.jar"
+hash = "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+size = 227511
+
+[[files]]
+file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+hash = "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+size = 47428
+
+[[files]]
+file = "mods/Aquaculture-1.20.1-2.5.7.jar"
+hash = "4c96cf0dd3363a8e15f9ef6b6bfc00ac7d4791e8e9eeebe19b8092c59e800f8f"
+size = 601839
+
+[[files]]
+file = "mods/aquamirae-forge-1.20.1-7.1.10.jar"
+hash = "bf7cedf6d23854b01e3e13190a5570a3a8ef5c037765e67812d9acd9b3b99c18"
+size = 25896970
+
+[[files]]
+file = "mods/architectury-9.2.14-forge.jar"
+hash = "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+size = 580602
+
+[[files]]
+file = "mods/artifacts-forge-9.5.19.jar"
+hash = "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0"
+size = 850974
+
+[[files]]
+file = "mods/balm-forge-1.20.1-7.3.41-all.jar"
+hash = "053205e3dac0d19fcff4aa3d4f5e4df48d3398b54d446d65fb918c520429e11a"
+size = 559741
+
+[[files]]
+file = "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+hash = "330f482487ac3135557b6e898d7e1ae5330321e9cfd5ba63e13a16cf2e8d8b98"
+size = 22381010
+
+[[files]]
+file = "mods/blue_skies-1.20.1-1.3.31.jar"
+hash = "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748"
+size = 83564111
+
+[[files]]
+file = "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar"
+hash = "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
+size = 11839865
+
+[[files]]
+file = "mods/BuildingWands-forge-MC1.20.1-3.0.5.jar"
+hash = "cfbfe44b5c3aa34296ccb9701e1a53ec1fd2f52858be45e335d99b405c760eb8"
+size = 443587
+
+[[files]]
+file = "mods/canary-mc1.20.1-0.3.3.jar"
+hash = "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
+size = 594191
+
+[[files]]
+file = "mods/Chunky-1.3.146.jar"
+hash = "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141"
+size = 341451
+
+[[files]]
+file = "mods/citadel-2.6.3-1.20.1.jar"
+hash = "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+size = 3185275
+
+[[files]]
+file = "mods/cloth-config-11.1.136-forge.jar"
+hash = "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+size = 1181413
+
+[[files]]
+file = "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
+hash = "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
+size = 20299
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.jar"
+hash = "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944"
+size = 115280
+
+[[files]]
+file = "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
+hash = "c790e8671625b05ec0aa19272e0ea74ea95619f953e3c6f39a6736af0d386804"
+size = 88752
+
+[[files]]
+file = "mods/curios-forge-5.14.1+1.20.1.jar"
+hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+size = 398066
+
+[[files]]
+file = "mods/dcintegration-forge-3.0.7.1-1.20.1.jar"
+hash = "8da9fbc532229b4d55b4857c7fc28ded385ca6e621e95ba393a584aadef7868d"
+size = 16358023
+
+[[files]]
+file = "mods/Dungeon Crawl-1.20.1-2.3.15.jar"
+hash = "71e1b8ceaf20c3102ae42ef2761ca47f30fe4cbd20ecbb687df2ce75d1785514"
+size = 758123
+
+[[files]]
+file = "mods/eatinganimation-1.20.1-5.1.0.jar"
+hash = "506ffc2e2bcc5709c8121382c5d0428ca642ceaeebe2a9169c9b0475a83c657c"
+size = 294792
+
+[[files]]
+file = "mods/econmc-1.0.11.jar"
+hash = "1450883869e5971b03d79907d335c23be7d0e73de79c918075e77b83cda13cd5"
+size = 1006322
+
+[[files]]
+file = "mods/economy-1.0.1.jar"
+hash = "6f4726e586300d0611c9972f89959be9711c4f25c48d60408e5aa5b19ddd318d"
+size = 534596
+
+[[files]]
+file = "mods/fancymenu_forge_3.9.9_MC_1.20.1.jar"
+hash = "686253f50d103e21cc04b8710ab9ba4ba788916ad852620040308f3f08512fab"
+size = 26174014
+
+[[files]]
+file = "mods/FastFurnace-1.20.1-8.0.2.jar"
+hash = "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8"
+size = 6170
+
+[[files]]
+file = "mods/fragmentum-forge-1.20.1-1.5.2.jar"
+hash = "c5d12e49e31af941f0dc96b2c9e6e6368ceaa0d4dac24f83af4431f49bca262d"
+size = 2737065
+
+[[files]]
+file = "mods/ftb-chunks-forge-2001.3.8.jar"
+hash = "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02"
+size = 1159043
+
+[[files]]
+file = "mods/ftb-library-forge-2001.2.13.jar"
+hash = "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+size = 780558
+
+[[files]]
+file = "mods/ftb-quests-forge-2001.4.22.jar"
+hash = "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+size = 1255469
+
+[[files]]
+file = "mods/ftb-ranks-forge-2001.1.7.jar"
+hash = "ec654cb94b3be8217da91f114667d7b0170c7be2ed533ac7e4faa337d1f5b872"
+size = 87362
+
+[[files]]
+file = "mods/ftb-teams-forge-2001.3.2.jar"
+hash = "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+size = 252579
+
+[[files]]
+file = "mods/ftb-ultimine-forge-2001.1.8.jar"
+hash = "b80dde55b2c91fd27f09f15ed2aefb0756c7bd704316e488ae8a06b179e85730"
+size = 129653
+
+[[files]]
+file = "mods/Galosphere-1.20.1-1.5.2-Forge.jar"
+hash = "b9a749b0dff0c8e306f9395f7f757d05f1530cd18dcb2d984be5f46180e623f1"
+size = 35767244
+
+[[files]]
+file = "mods/geckolib-forge-1.20.1-4.8.4.jar"
+hash = "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747"
+size = 1038209
+
+[[files]]
+file = "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+hash = "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61"
+size = 87550
+
+[[files]]
+file = "mods/gml-4.0.11-all.jar"
+hash = "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4"
+size = 11125541
+
+[[files]]
+file = "mods/Iceberg-1.20.1-forge-1.1.25.jar"
+hash = "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+size = 134551
+
+[[files]]
+file = "mods/Incendium_1.20.x_v5.3.5.jar"
+hash = "96068e4d66ea503efebb1e31d28c2d6ce85db749049463cab9f799c8c0ae1e75"
+size = 4638945
+
+[[files]]
+file = "mods/inventoryhud.forge.1.20.1-3.4.26.jar"
+hash = "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
+size = 238088
+
+[[files]]
+file = "mods/inventorysorter-1.20.1-23.0.11.jar"
+hash = "987bfb57aaaad23189c9747cb7177b8b20208f5fa1f23a09e442ed7711136263"
+size = 54267
+
+[[files]]
+file = "mods/ironfurnaces-1.20.1-4.1.8.jar"
+hash = "e457052522cef1f8644b6929a64eab96de04ce9e6e32a715f1d68d79da26d66b"
+size = 612921
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.3.jar"
+hash = "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
+size = 553487
+
+[[files]]
+file = "mods/jei-1.20.1-forge-15.21.0.148.jar"
+hash = "0c5f1aeca0376c1c5d55ccb7bbe9bb391891ce12ef8cb8cb437150abee9a19c9"
+size = 1426211
+
+[[files]]
+file = "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+size = 625185
+
+[[files]]
+file = "mods/kubejs-forge-2001.6.5-build.14.jar"
+hash = "c582dcafa3fd6a1f3cae6008cd22f9c6be19cd43ea8f5ce482e90f53285f896b"
+size = 1654724
+
+[[files]]
+file = "mods/kubejs_gui_2_1201-forge-1.0.0.jar"
+hash = "028189e5df5ae78de8893e8a488b5560dea31e81748599cd6d5aaa47d1695523"
+size = 192109
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-3.31.jar"
+hash = "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+size = 73916104
+
+[[files]]
+file = "mods/lionfishapi-3.0.jar"
+hash = "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+size = 101931
+
+[[files]]
+file = "mods/lootr-forge-1.20-0.7.35.94.jar"
+hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+size = 463485
+
+[[files]]
+file = "mods/LuckPerms-Forge-5.4.102.jar"
+hash = "935beff65a4d248880e004ccb5fc2f1cc5d63d3f24870ff8d472cbefa31016da"
+size = 1398478
+
+[[files]]
+file = "mods/majrusz-library-forge-1.20.1-7.0.8.jar"
+hash = "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
+size = 437340
+
+[[files]]
+file = "mods/majruszs-difficulty-forge-1.20.1-1.9.10.jar"
+hash = "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
+size = 777242
+
+[[files]]
+file = "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+hash = "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d"
+size = 2174615
+
+[[files]]
+file = "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
+size = 37178
+
+[[files]]
+file = "mods/missingmodschecker-forge-1.0.1-1.20.1.jar"
+hash = "1dc1188f5321144299412937f3965990d518376790bd7285b9867acce618332e"
+size = 407080
+
+[[files]]
+file = "mods/modernfix-forge-5.27.66+mc1.20.1.jar"
+hash = "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
+size = 1002234
+
+[[files]]
+file = "mods/modulartoasts-1.0.1.jar"
+hash = "a267583495a8657246d195ae8b9a5121fea27c84ea921c3eb5caa778f9b05b57"
+size = 73059
+
+[[files]]
+file = "mods/morejs-forge-1.20.1-0.10.1.jar"
+hash = "bffc387943fb6bdfef8fcb6857aaa285f0a33575c9ada3cd66f54352cdb82892"
+size = 173745
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+hash = "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
+size = 76237
+
+[[files]]
+file = "mods/NaturesCompass-1.20.1-1.12.0-forge.jar"
+hash = "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
+size = 227495
+
+[[files]]
+file = "mods/Neat-1.20.1-41-FORGE.jar"
+hash = "c850ba870e044f0e18d1dee236dc5863e9ad3b38a70c0741c72813776d35c11e"
+size = 30595
+
+[[files]]
+file = "mods/Nullscape_1.20.x_v1.2.8.jar"
+hash = "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5"
+size = 399214
+
+[[files]]
+file = "mods/Placebo-1.20.1-8.6.3 (1).jar"
+hash = "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+size = 282474
+
+[[files]]
+file = "mods/Prism-1.20.1-forge-1.0.5.jar"
+hash = "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+size = 52205
+
+[[files]]
+file = "mods/Quark-4.0-462.jar"
+hash = "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478"
+size = 14935230
+
+[[files]]
+file = "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
+hash = "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+size = 432753
+
+[[files]]
+file = "mods/rhino-forge-2001.2.3-build.10.jar"
+hash = "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
+size = 1798244
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
+hash = "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
+size = 77732
+
+[[files]]
+file = "mods/simplyswords-forge-1.56.0-1.20.1.jar"
+hash = "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f"
+size = 15202091
+
+[[files]]
+file = "mods/skinlayers3d-forge-1.11.2-mc1.20.1.jar"
+hash = "2d35eff3e2642e8a6f7fb4cc7461211699ee2e32b9644e0d3b3bd6ba1574551c"
+size = 2168901
+
+[[files]]
+file = "mods/skinrestorer-2.10.0+1.20-forge.jar"
+hash = "2f201b30da26d3a6302be4af0fe89a0cc5bdd91351488443b8ff848b8efdf2ef"
+size = 278170
+
+[[files]]
+file = "mods/smallships-forge-1.20.1-2.0.0-b1.4.jar"
+hash = "f79a4dcab3e1c8e4d14467cbfa655f4a16e0f0d0901e8f9bde9e3f5e36735eff"
+size = 1816687
+
+[[files]]
+file = "mods/solsauthlogin-1.20.1-1.3.jar"
+hash = "9faf7a4a4a4e2abeaabd83e747f6e641537e307e1820adc2e068691d2e11f11f"
+size = 96643
+
+[[files]]
+file = "mods/solstitlesystem-1.20.1-1.4.4.jar"
+hash = "9597035f4e17fd4eb511668572d44450748e1e66dc6e65e2d31acba480ab27dd"
+size = 246616
+
+[[files]]
+file = "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar"
+hash = "ffa11da88bde6ed6158bfba25e2e33005260b080a4558cc4f85be7baea9f9220"
+size = 1130880
+
+[[files]]
+file = "mods/sophisticatedcore-1.20.1-1.3.73.2192.jar"
+hash = "96c0fa99f790df039116278518fbc78d858ea43cf2d317031e7d81fb2706a7a3"
+size = 1622705
+
+[[files]]
+file = "mods/sophisticatedstorage-1.20.1-1.4.78.2029.jar"
+hash = "78178396a5c59675a74b11b6b36b4f2735edc2a61e4414b6610648cf12844122"
+size = 1822732
+
+[[files]]
+file = "mods/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
+hash = "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1"
+size = 203819
+
+[[files]]
+file = "mods/structure_gel-1.20.1-2.16.2.jar"
+hash = "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+size = 966028
+
+[[files]]
+file = "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+hash = "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1"
+size = 107532
+
+[[files]]
+file = "mods/tombstone-1.20.1-9.1.3.jar"
+hash = "9ecfa6768aee0e4f344d866ae51809d34ca5bffcbf9b444b4239419751d259b8"
+size = 2581467
+
+[[files]]
+file = "mods/txnilib-forge-1.0.24-1.20.1.jar"
+hash = "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e"
+size = 3743339
+
+[[files]]
+file = "mods/waystones-forge-1.20.1-14.1.20.jar"
+hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
+size = 533738
+
+[[files]]
+file = "mods/Zeta-1.0-31.jar"
+hash = "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e"
+size = 1006518
 
 [[files]]
 file = "options.txt"
 hash = "dba6574a73fc148c12a068736077d36fdbce1a90e27a4403c79dfe9489e9c94a"
+size = 10676
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/assets/minecraft/textures/gui/widgets.png"
 hash = "2ee2d76877e9298ed84c5d230e07e58d57b5e97b160d30cc541ba8a2dd0cee17"
+size = 17440
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/pack.mcmeta"
 hash = "3f52b1a681aff424ade001987b7eb60f1159067999a0520f996b2bcc10a1757f"
+size = 92
 
 [[files]]
 file = "servers.dat"
 hash = "14ee4b804395634d5623509d26c796a991a2555ec274fcfc9b1a9eaf7ac22e29"
+size = 16013
