@@ -10,10 +10,10 @@ Karpuz Network sunucusunun Launcher tarafından yönetilen resmî istemci paketi
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.22 |
-| Benzersiz etkin JAR | 91 |
-| Packwiz paket sürümü | 1.1.0 |
+| Benzersiz etkin JAR | 94 |
+| Packwiz paket sürümü | 1.2.0 |
 | Hash biçimi | SHA-256 |
-| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack.zip` |
+| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.2.0.zip` |
 
 Tam ve doğrulanabilir dosya listesi `index.toml`, mod arşivi envanteri ise `mods-manifest.json` içindedir. README bilerek ikinci bir mod listesi tutmaz; böylece dokümantasyon ile canlı paket birbirinden kopmaz.
 
@@ -63,7 +63,7 @@ Betik:
 - ZIP ve JAR hash'leriyle `mods-manifest.json` üretir;
 - `pack.toml` sürümünü ve kök hash'lerini günceller.
 
-Ardından aynı ZIP dosyasını R2'de `Karpuz-Network-Modpack.zip` adıyla yayımla, değişiklikleri incele ve üç metadata dosyasını birlikte commit et. Arşiv ile manifest hash'i uyuşmadan Launcher kuruluma başlamaz.
+Ardından ZIP dosyasını önce sürümlü adıyla, sonra `Karpuz-Network-Modpack.zip` sabit bağlantısıyla R2'de yayımla; değişiklikleri incele ve üç metadata dosyasını birlikte commit et. Arşiv ile manifest hash'i uyuşmadan Launcher kuruluma başlamaz.
 
 ## Lisans
 

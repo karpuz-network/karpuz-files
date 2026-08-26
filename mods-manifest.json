@@ -1,9 +1,9 @@
 {
   "format": 1,
   "archive": {
-    "url": "https://mods.karpuz.network/Karpuz-Network-Modpack.zip",
-    "size": 544837919,
-    "sha256": "076e09687ff16f7cc4f22d119d362c61ca9440eb1cca0b8ff24cbc2d31eed1a3"
+    "url": "https://mods.karpuz.network/Karpuz-Network-Modpack-1.2.0.zip",
+    "size": 530293689,
+    "sha256": "fb3831148d1758b44506b86288a3ebb6e78f3abc55bf54f18bbf9149fb7495ea"
   },
   "files": [
     {
@@ -132,6 +132,11 @@
       "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
     },
     {
+      "name": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar",
+      "size": 10873769,
+      "sha256": "604916a1cd0949fd426cab5fad8f839037d7e6f74d9f18a9afbeaa7731edfc38"
+    },
+    {
       "name": "dcintegration-forge-3.0.7.1-1.20.1.jar",
       "size": 16358023,
       "sha256": "8da9fbc532229b4d55b4857c7fc28ded385ca6e621e95ba393a584aadef7868d"
@@ -165,6 +170,11 @@
       "name": "FastFurnace-1.20.1-8.0.2.jar",
       "size": 6170,
       "sha256": "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8"
+    },
+    {
+      "name": "ferritecore-6.0.1-forge.jar",
+      "size": 123034,
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
     },
     {
       "name": "fragmentum-forge-1.20.1-1.5.2.jar",
@@ -282,6 +292,11 @@
       "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
     },
     {
+      "name": "loot_journal-forge-1.20.1-6.2.1.jar",
+      "size": 939923,
+      "sha256": "46c17475ca54ffa6d16b8d185ceeac9547b01f0c8735689e8fea86f573b20e9a"
+    },
+    {
       "name": "lootr-forge-1.20-0.7.35.94.jar",
       "size": 463485,
       "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
@@ -352,7 +367,7 @@
       "sha256": "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5"
     },
     {
-      "name": "Placebo-1.20.1-8.6.3 (1).jar",
+      "name": "Placebo-1.20.1-8.6.3.jar",
       "size": 282474,
       "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
     },

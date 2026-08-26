@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0
+
+- Paket `modlars` klasöründeki 94 etkin `.jar` dosyasıyla yenilendi.
+- Beş devre dışı `.jarbak` dosyası paketin dışında bırakıldı.
+- Forge sürümü `47.4.22` olarak sabitlendi.
+- Mod arşivi, index ve manifest SHA-256 değerleri birlikte yenilendi.
+
 ## 1.1.0
 
 - Güncel `mods.zip` kaynağından 91 benzersiz etkin mod için SHA-256 manifesti üretildi.
