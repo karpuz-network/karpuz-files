@@ -13,7 +13,7 @@ Karpuz Network sunucusunun Launcher tarafından yönetilen resmî istemci paketi
 | Benzersiz etkin JAR | 95 |
 | Packwiz paket sürümü | 1.3.0 |
 | Hash biçimi | SHA-256 |
-| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.3.0.zip` |
+| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.3.0.zip?fresh=bc7bc9d` |
 
 Tam ve doğrulanabilir dosya listesi `index.toml`, mod arşivi envanteri ise `mods-manifest.json` içindedir. README bilerek ikinci bir mod listesi tutmaz; böylece dokümantasyon ile canlı paket birbirinden kopmaz.
 
