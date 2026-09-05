@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0
+
+- Oyuncuların KARPUZ LAUNCHER kullanımını yakından gösteren istemci rozeti eklendi.
+- Paket 95 etkin `.jar` dosyasıyla yeniden doğrulandı.
+
 ## 1.2.0
 
 - Paket `modlars` klasöründeki 94 etkin `.jar` dosyasıyla yenilendi.

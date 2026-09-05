@@ -366,6 +366,11 @@ hash = "0c5f1aeca0376c1c5d55ccb7bbe9bb391891ce12ef8cb8cb437150abee9a19c9"
 size = 1426211
 
 [[files]]
+file = "mods/karpuzbadge-1.0.0.jar"
+hash = "ccb8f02a69f34621072dd3d35fc377e238663c09517344b084c863cef4d7a22c"
+size = 9643
+
+[[files]]
 file = "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
 hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
 size = 625185

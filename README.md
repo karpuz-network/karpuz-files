@@ -10,10 +10,10 @@ Karpuz Network sunucusunun Launcher tarafından yönetilen resmî istemci paketi
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.22 |
-| Benzersiz etkin JAR | 94 |
-| Packwiz paket sürümü | 1.2.0 |
+| Benzersiz etkin JAR | 95 |
+| Packwiz paket sürümü | 1.3.0 |
 | Hash biçimi | SHA-256 |
-| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.2.0.zip` |
+| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.3.0.zip` |
 
 Tam ve doğrulanabilir dosya listesi `index.toml`, mod arşivi envanteri ise `mods-manifest.json` içindedir. README bilerek ikinci bir mod listesi tutmaz; böylece dokümantasyon ile canlı paket birbirinden kopmaz.
 
@@ -52,7 +52,7 @@ karpuz-files/
 Yeni `mods.zip` hazırlandıktan sonra mevcut arşivi ve bu depodaki manifestleri aynı sürümde tut:
 
 ```powershell
-python scripts/build_packwiz_from_zip.py "C:\paketler\mods.zip" --version 1.2.0
+python scripts/build_packwiz_from_zip.py "C:\paketler\mods.zip" --version 1.3.0
 ```
 
 Betik:
