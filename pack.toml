@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "35447e186eb979c34064a74130c5a5114a190ac2e2b224a2f5a2402bd4c51ebf"
+hash = "ab5e134d0095287c3b7d6f0166491dac3f81799ad65ece9eee21de960cac3829"
 
 [versions]
 forge = "47.4.22"
@@ -15,4 +15,4 @@ minecraft = "1.20.1"
 [karpuz]
 mods-manifest = "mods-manifest.json"
 mods-manifest-hash-format = "sha256"
-mods-manifest-hash = "3cadf876ef59205037fed3188c000154c6b831ef5187e5f75ce0bb12c6348f34"
+mods-manifest-hash = "c031f21ff0c40959632934c78a1958ceadf04b18b38042faf42d4622c8372411"
