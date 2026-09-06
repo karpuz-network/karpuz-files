@@ -4,7 +4,7 @@ layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1786806894308
-  is_enabled = true
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
@@ -1979,4 +1979,3 @@ vanilla_button {
   automated_button_clicks = 0
   is_hidden = true
 }
-
