@@ -15,4 +15,4 @@ minecraft = "1.20.1"
 [karpuz]
 mods-manifest = "mods-manifest.json"
 mods-manifest-hash-format = "sha256"
-mods-manifest-hash = "c031f21ff0c40959632934c78a1958ceadf04b18b38042faf42d4622c8372411"
+mods-manifest-hash = "38bc61b6d84ac30d385692f79718decb14d6741987172eeaa96a89d5abd4a07c"
