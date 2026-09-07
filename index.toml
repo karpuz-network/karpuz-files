@@ -37,8 +37,8 @@ size = 16102
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "986947806184752491026084059408728e78cc597cb9f811017d25e3549f0ee1"
-size = 67019
+hash = "b62c01d99d3e259ea4e1aff5291c7b2141b160d3f374d86bcaa0ef78a3e23e93"
+size = 66989
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"

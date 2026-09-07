@@ -1,12 +1,12 @@
 name = "Karpuz Pack 1.20.1"
 author = "Karpuz Network"
-version = "1.4.0"
+version = "1.4.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ce56e77c2f3596d83894b28c938f919f283285b366d5a536cfff5f7c93f25c46"
+hash = "d26065bd0c2fa914220e67ff365f2a490e484fa8c79e05a124c139e54d3e57f4"
 
 [versions]
 forge = "47.4.22"

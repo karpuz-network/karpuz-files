@@ -372,6 +372,7 @@ element {
   nine_slice_slider_handle = false
   element_type = custom_button
   instance_identifier = 06b3414f-c70b-480e-a70f-8ad3a0b0b325-1786735485597
+  is_hidden = false
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -381,8 +382,7 @@ element {
   auto_sizing_base_screen_height = 1058
   auto_sizing_base_gui_scale = 2.0
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = mc_titlescreen_multiplayer_button
+  anchor_point = mid-centered
   x = -335
   y = 68
   width = 200
@@ -452,6 +452,7 @@ element {
   nine_slice_slider_handle = false
   element_type = custom_button
   instance_identifier = 3394d04a-0732-4083-ab50-3b9b48312d4d-1786738557392
+  is_hidden = true
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -706,7 +707,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -867,7 +868,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -946,7 +947,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1025,7 +1026,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1104,7 +1105,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1183,7 +1184,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1262,7 +1263,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1341,7 +1342,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1420,7 +1421,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1499,7 +1500,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1660,7 +1661,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1740,7 +1741,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1819,7 +1820,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1898,7 +1899,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
 
 vanilla_button {
@@ -1977,5 +1978,5 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = false
+  is_hidden = true
 }
