@@ -17,8 +17,8 @@ size = 193489
 
 [[files]]
 file = "config/fancymenu/assets/splashtext.txt"
-hash = "ec77ca3abec6a65505ca657ab81c5649cf30ad2141d011e547223ceacb27e2cd"
-size = 98
+hash = "db75acc2a7679bffb45ac1d6900707fec6b4972ae3dc9206a8108a760ada4323"
+size = 108
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -37,8 +37,8 @@ size = 16102
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "daf5c2a02b9b5a69e3545f759e90249d419f230c95c7052345d41fd528ff9036"
-size = 67007
+hash = "986947806184752491026084059408728e78cc597cb9f811017d25e3549f0ee1"
+size = 67019
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"

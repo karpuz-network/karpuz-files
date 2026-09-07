@@ -4,7 +4,7 @@ layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1786806894308
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
@@ -706,7 +706,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -946,7 +946,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1025,7 +1025,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1104,7 +1104,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1183,7 +1183,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1262,7 +1262,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1341,7 +1341,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1420,7 +1420,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1499,7 +1499,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1660,7 +1660,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1740,7 +1740,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1819,7 +1819,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
 
 vanilla_button {
@@ -1977,5 +1977,5 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   automated_button_clicks = 0
-  is_hidden = true
+  is_hidden = false
 }
