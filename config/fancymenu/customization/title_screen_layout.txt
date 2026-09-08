@@ -383,8 +383,8 @@ element {
   auto_sizing_base_gui_scale = 2.0
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -335
-  y = 68
+  x = -435
+  y = 5
   width = 200
   height = 20
   stay_on_screen = true
