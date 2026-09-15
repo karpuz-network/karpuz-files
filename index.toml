@@ -39,10 +39,12 @@ hash = "0ca6f5b7af8e11b2f568222df097d8202377d6546a7f9d48b1cf8669d1a64ed5"
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+preserve = true
 
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab"
+preserve = true
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -83,6 +85,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
+preserve = true
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

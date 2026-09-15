@@ -26,7 +26,7 @@ Launcher aşağıdaki zinciri izler:
 3. `config`, `resourcepacks`, `options.txt` ve `servers.dat` içindeki her dosyayı ikili SHA-256 ile kontrol eder.
 4. Sadece eksik veya bozuk dosyaları indirir: modlar resmî CDN linkinden, diğer dosyalar GitHub Raw'dan. Sağlam dosyalar yeniden indirilmez.
 5. `mods` klasöründeki pakete ait olmayan JAR/JARBAK dosyalarını temizler.
-6. `options.txt` ve `servers.dat` kullanıcı ayarlarını korur (yalnızca hiç yoksa indirilir; `preserve = true`).
+6. `options.txt`, `servers.dat` ve FancyMenu kullanıcı durum dosyalarını (`config/fancymenu/options.txt`, `legacy_checklist.txt`, `user_variables.db`) korur: `preserve = true` işaretli dosyalar yerelde varsa hiç ellenmez, yalnızca hiç yoksa indirilir.
 7. `options.txt` içindeki `gamma` değeri 1'in üzerindeyse hile sayılır ve 0.5'e çekilir.
 8. Kurulum sonunda yerel paket sürümünü ve index hash'ini `.karpuz-pack.json` dosyasına kaydeder.
 

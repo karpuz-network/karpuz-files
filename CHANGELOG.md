@@ -4,6 +4,7 @@
 
 - **Just Zoom** (`justzoom_forge_2.1.1_MC_1.20.1.jar`) pakete eklendi; metafile'ı Modrinth resmî CDN linki ve sha512 hash'i ile üretildi.
 - `scripts/packwiz_add_from_jars.py` artık `--add <ad veya alt dize>` ile pakete yeni mod ekleyebiliyor; pakete dahil olmayan yerel JAR'lar konsolda raporlanıyor.
+- FancyMenu kullanıcı durum dosyaları (`config/fancymenu/options.txt`, `legacy_checklist.txt`, `user_variables.db`) `preserve = true` işaretlendi; launcher bu dosyaların kullanıcı kopyalarını ezmez (oyun açılışında FancyMenu'nün yeniden yazdığı dosyaların her seferinde yeniden indirilmesi sorunu giderildi).
 - Paketin mod listesi artık `index.toml` içindeki `mods/*.pw.toml` metafile'larından türetiliyor (yeni format).
 
 ## 1.5.0
