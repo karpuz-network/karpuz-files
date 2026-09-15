@@ -199,14 +199,25 @@ def load_pack(repo: Path) -> dict:
 
 
 def indexed_mod_names(repo: Path) -> list[str]:
-    """index.toml'daki pakete dahil mod dosya adlarini dondurur."""
+    """index.toml'daki metafile'lardan pakete dahil mod dosya adlarini dondurur."""
     pack = load_pack(repo)
     index_path = repo / safe_relative(pack["index"]["file"])
     index = tomllib.loads(index_path.read_text(encoding="utf-8"))
-    names = []
+    names: list[str] = []
     for entry in index.get("files", []):
         path = safe_relative(str(entry["file"]))
-        if path.startswith("mods/") and not path.endswith(".pw.toml"):
+        if not path.startswith("mods/"):
+            continue
+        if path.endswith(".pw.toml"):
+            metafile = repo.joinpath(*PurePosixPath(path).parts)
+            if not metafile.is_file():
+                continue
+            meta = tomllib.loads(metafile.read_text(encoding="utf-8"))
+            filename = str(meta.get("filename") or "").strip()
+            if filename:
+                names.append(filename)
+        else:
+            # Eski bicim: index dogrudan jar dosyasini listeliyor.
             names.append(PurePosixPath(path).name)
     return names
 
@@ -596,6 +607,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                         help="CurseForge API indirmesi kapali dosyalar icin resmi CDN adresini kullan")
     parser.add_argument("--no-refresh", action="store_true", help="packwiz refresh cagirma")
     parser.add_argument("--all-jars", action="store_true", help="index yerine mods/ icindeki tum jar'lari isle")
+    parser.add_argument("--add", default="", help="Pakete dahil edilmeyen yerel jar'lari ekle (virgulle ayrilmis ad/alt dize)")
     parser.add_argument("--only", default=None, help="Yalnizca verilen alt dizeleri iceren jar'lar (test)")
     return parser.parse_args(argv)
 
@@ -617,8 +629,15 @@ def main(argv: list[str] | None = None) -> int:
     if not mods_dir.is_dir():
         raise SystemExit(f"mods klasoru bulunamadi: {mods_dir}")
 
-    wanted = (indexed_mod_names(repo) if not args.all_jars
-              else [item.name for item in sorted(mods_dir.glob("*.jar"))])
+    local_jars = [item.name for item in sorted(mods_dir.glob("*.jar"))]
+    wanted = list(indexed_mod_names(repo)) if not args.all_jars else list(local_jars)
+    for needle in [item.strip() for item in args.add.split(",") if item.strip()]:
+        matches = [name for name in local_jars if needle.lower() in name.lower()]
+        if not matches:
+            raise SystemExit(f"--add ile eslesen yerel jar bulunamadi: {needle}")
+        for name in matches:
+            if name not in wanted:
+                wanted.append(name)
     if args.only:
         needles = [item.strip().lower() for item in args.only.split(",") if item.strip()]
         wanted = [name for name in wanted if any(needle in name.lower() for needle in needles)]
@@ -628,6 +647,9 @@ def main(argv: list[str] | None = None) -> int:
     log(f"Paket modu: {len(wanted)} | yerel jar: {len(jars)} | eksik yerel jar: {len(missing)}")
     for name in missing:
         log(f"  ! yerelde yok: mods/{name}")
+    if not args.all_jars:
+        for name in [item for item in local_jars if item not in wanted]:
+            log(f"  - pakete dahil degil (eklemek icin --add): mods/{name}")
 
     log("Yerel jar hash'leri hesaplaniyor...")
     digests: dict[str, dict] = {}

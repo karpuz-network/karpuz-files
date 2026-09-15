@@ -360,6 +360,11 @@ hash = "8f368e86c4e5e255fc989b4c0564f3e7db9a2dfaf9dfae817c6c6a30ed51312c"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "e0064de7fce64fb91f6e4c2fa30c72d0c8a1649d6211fb54f4cf884f9af3cf5d"
+metafile = true
+
+[[files]]
 file = "mods/karpuzbadge.pw.toml"
 hash = "9c8784ffd31508ab3460fdbc46400b0de5460d6d27781d9979cec9a0bf4f33cb"
 metafile = true

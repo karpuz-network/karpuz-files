@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.1
+
+- **Just Zoom** (`justzoom_forge_2.1.1_MC_1.20.1.jar`) pakete eklendi; metafile'ı Modrinth resmî CDN linki ve sha512 hash'i ile üretildi.
+- `scripts/packwiz_add_from_jars.py` artık `--add <ad veya alt dize>` ile pakete yeni mod ekleyebiliyor; pakete dahil olmayan yerel JAR'lar konsolda raporlanıyor.
+- Paketin mod listesi artık `index.toml` içindeki `mods/*.pw.toml` metafile'larından türetiliyor (yeni format).
+
 ## 1.5.0
 
 - Mod indirmeleri Cloudflare R2 ZIP arşivinden çıkarıldı; modlar artık `mods/*.pw.toml` metafile'larındaki resmî indirme linkleriyle (Modrinth / CurseForge CDN) doğrulanıp indiriliyor.

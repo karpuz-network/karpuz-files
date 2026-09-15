@@ -10,8 +10,8 @@ Karpuz Network sunucusunun Launcher tarafından yönetilen resmî istemci paketi
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.22 |
-| Benzersiz etkin JAR | 97 |
-| Packwiz paket sürümü | 1.5.0 |
+| Benzersiz etkin JAR | 98 |
+| Packwiz paket sürümü | 1.5.1 |
 | Index hash biçimi | SHA-256 |
 | Mod kaynakları | Modrinth + CurseForge resmî CDN + Karpuz özel modları (GitHub) |
 
@@ -63,6 +63,10 @@ Mod JAR dosyaları (`mods/*.jar`) büyük oldukları için Git'e eklenmez; indir
 2. Resmî linkleri çözümle ve metafile + index üret:
    ```powershell
    py scripts/packwiz_add_from_jars.py --cf-key $env:CF_API_KEY --cf-cdn-fallback
+   ```
+   Henüz pakette olmayan yeni JAR'ları `--add` ile açıkça belirtin (`--add` verilmezse paket dışı yerel JAR'lar yalnızca raporlanır):
+   ```powershell
+   py scripts/packwiz_add_from_jars.py --cf-key $env:CF_API_KEY --cf-cdn-fallback --add justzoom
    ```
    Betik Modrinth (hash ile), CurseForge (fingerprint ile) ve `scripts/private-mods.json` sırasını dener;
    çözülemeyen modları rapor eder ve durur. `--report-only` ile önce önizleme alabilirsiniz.
