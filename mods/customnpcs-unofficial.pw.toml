@@ -1,0 +1,8 @@
+name = "CustomNPCs-Unofficial"
+filename = "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8414/335/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar"
+hash-format = "sha256"
+hash = "604916a1cd0949fd426cab5fad8f839037d7e6f74d9f18a9afbeaa7731edfc38"

@@ -1,0 +1,8 @@
+name = "Modular Toasts API"
+filename = "modulartoasts-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7744/141/modulartoasts-1.0.1.jar"
+hash-format = "sha256"
+hash = "a267583495a8657246d195ae8b9a5121fea27c84ea921c3eb5caa778f9b05b57"

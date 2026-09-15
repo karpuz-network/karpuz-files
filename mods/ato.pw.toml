@@ -1,0 +1,8 @@
+name = "ATO - All the Ores"
+filename = "alltheores-1.20.1-47.1.3-2.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/5348/605/alltheores-1.20.1-47.1.3-2.2.4.jar"
+hash-format = "sha256"
+hash = "b3aee8294e1a285f875192745194b910d945a09beeb050f25a2eb37ddc497408"

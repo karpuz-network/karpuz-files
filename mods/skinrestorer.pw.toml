@@ -1,0 +1,8 @@
+name = "Skin Restorer"
+filename = "skinrestorer-2.10.0+1.20-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ghrZDhGW/versions/YWasQFNI/skinrestorer-2.10.0%2B1.20-forge.jar"
+hash-format = "sha512"
+hash = "4e5b38307ab1f46def039d1ab37293b7962a2ce503c41026ad3f96fbdf98b1816d14a5312e08f549760bce3ded4992b831063ff00f2335a2786a2a8af75d95b6"

@@ -1,0 +1,8 @@
+name = "Sol's Title System"
+filename = "solstitlesystem-1.20.1-1.4.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HK28rkkm/versions/qm1CPtzN/solstitlesystem-1.20.1-1.4.4.jar"
+hash-format = "sha512"
+hash = "403dbb99c659a2dcc9b6e0f1ddf5d8e1588492f8a6e3cb9a28bbf64e11430db663993269b7f4d2b347e1245678b32b5c800ce5c6eb74d754405a00aabf850e3c"

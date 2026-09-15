@@ -1,0 +1,8 @@
+name = "Sophisticated Core"
+filename = "sophisticatedcore-1.20.1-1.3.73.2192.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8503/31/sophisticatedcore-1.20.1-1.3.73.2192.jar"
+hash-format = "sha256"
+hash = "96c0fa99f790df039116278518fbc78d858ea43cf2d317031e7d81fb2706a7a3"

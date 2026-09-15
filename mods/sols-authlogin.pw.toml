@@ -1,0 +1,8 @@
+name = "Sol's AuthLogin"
+filename = "solsauthlogin-1.20.1-1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EVSBNyMm/versions/NfjywjdQ/solsauthlogin-1.20.1-1.3.jar"
+hash-format = "sha512"
+hash = "85a31e61889d45bb7b4d8d9b1a508a56ceea90b1bf0db605ea0dd5f1e6c769af041bf2b8b3742c584a4884419f6f466f0c795ac07d8828802d46cfa2adbb7a7f"

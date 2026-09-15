@@ -5,6 +5,10 @@ mods/*.jarbak
 
 # Packwiz onbellek
 .packwiz/
+.packwiz-verify-cache/
+
+# Cozumleme raporu (build artifact)
+resolution-report.json
 
 # Local notlar ve taslaklar
 NOTES.md

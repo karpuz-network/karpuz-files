@@ -1,0 +1,8 @@
+name = "Apothic Attributes"
+filename = "ApothicAttributes-1.20.1-1.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar"
+hash-format = "sha512"
+hash = "d0b7a9dac9e0d34cdec49afd9a3c9f5382dcfac69b18a7c7a600d4537cf2653368a00333389c8e7c9fdacf952e0e4f921464309e257a3dd992f1ba26f4ce6836"

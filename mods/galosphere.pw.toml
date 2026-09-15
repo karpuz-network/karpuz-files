@@ -1,0 +1,8 @@
+name = "Galosphere"
+filename = "Galosphere-1.20.1-1.5.2-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kn7xyQ1v/versions/dO2SHzWh/Galosphere-1.20.1-1.5.2-Forge.jar"
+hash-format = "sha512"
+hash = "05cfab57e4c90da7d6b6810540a44f397e4a813e8663e37744bb1cb6ad17f7271739f627b410c8fb16c14c2ead9115afdf696024c2e3d88c5bdaa0f86a575f65"

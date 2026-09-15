@@ -1,0 +1,8 @@
+name = "ModernFix"
+filename = "modernfix-forge-5.27.66+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/ZxDvSMHV/modernfix-forge-5.27.66%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "546eab2906684c463e55e27ff99467ab6ca7a6350803e5ad2c16e25d0eb1187a9ea619ab8a8887af652eeb21e2b1780b6f4957d5151a2b8be92d539feb244ea5"

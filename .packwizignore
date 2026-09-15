@@ -1,0 +1,24 @@
+# packwiz refresh tarafından index'e ALINMAYACAK dosyalar.
+# Index yalnızca oyun istemcisine kurulacak dosyaları içerir:
+#   mods/*.pw.toml (packwiz mod metadatası), config/, resourcepacks/, options.txt, servers.dat
+
+# Depo/CI/dokümantasyon dosyaları
+README.md
+CHANGELOG.md
+NOTES.md
+DETAILS.md
+LICENSE
+.editorconfig
+.github/**
+scripts/**
+packwiz
+packwiz.exe
+resolution-report.json
+
+# Mod JAR dosyaları repoya commit edilmez; indirme linkleri mods/*.pw.toml içindedir.
+mods/*.jar
+mods/*.jar.bak
+mods/*.jarbak
+mods/*.disabled
+.packwiz-verify-cache/**
+private-mods/**

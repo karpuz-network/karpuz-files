@@ -1,0 +1,8 @@
+name = "Economy+ (Economy Plus)"
+filename = "economy-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7368/297/economy-1.0.1.jar"
+hash-format = "sha256"
+hash = "6f4726e586300d0611c9972f89959be9711c4f25c48d60408e5aa5b19ddd318d"

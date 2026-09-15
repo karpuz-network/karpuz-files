@@ -1,0 +1,8 @@
+name = "Allthemodium"
+filename = "allthemodium-1.20.1-47.1.25-2.5.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/7142/820/allthemodium-1.20.1-47.1.25-2.5.7.jar"
+hash-format = "sha256"
+hash = "8846802f2eba917da079bbb11081ed66c73afc5d81cceb2270e15c627b722037"

@@ -10,60 +10,87 @@ Karpuz Network sunucusunun Launcher tarafından yönetilen resmî istemci paketi
 |---|---|
 | Minecraft | 1.20.1 |
 | Forge | 47.4.22 |
-| Benzersiz etkin JAR | 95 |
-| Packwiz paket sürümü | 1.3.0 |
-| Hash biçimi | SHA-256 |
-| Mod arşivi | `https://mods.karpuz.network/Karpuz-Network-Modpack-1.3.0.zip?fresh=bc7bc9d` |
+| Benzersiz etkin JAR | 97 |
+| Packwiz paket sürümü | 1.5.0 |
+| Index hash biçimi | SHA-256 |
+| Mod kaynakları | Modrinth + CurseForge resmî CDN + Karpuz özel modları (GitHub) |
 
-Tam ve doğrulanabilir dosya listesi `index.toml`, mod arşivi envanteri ise `mods-manifest.json` içindedir. README bilerek ikinci bir mod listesi tutmaz; böylece dokümantasyon ile canlı paket birbirinden kopmaz.
-
-Paketin öne çıkan içerikleri arasında Blue Skies, The Aether, Alex's Caves, Alex's Mobs, L_Ender's Cataclysm, Apotheosis, Biomes O' Plenty, Born in Chaos, Aquamirae ve Galosphere bulunur.
+Tam ve doğrulanabilir dosya listesi `index.toml` içindedir. Her mod için resmî indirme linki ve hash, `mods/*.pw.toml` metafile dosyalarında tutulur. README bilerek ikinci bir mod listesi tutmaz.
 
 ## Bütünlük zinciri
 
 Launcher aşağıdaki zinciri izler:
 
-1. `pack.toml` dosyasını GitHub Raw üzerinden alır.
-2. `index.toml` ve `mods-manifest.json` dosyalarının SHA-256 değerlerini `pack.toml` ile karşılaştırır.
-3. `mods`, `config`, `resourcepacks`, `options.txt` ve `servers.dat` içindeki her yönetilen dosyayı ikili SHA-256 ile kontrol eder.
-4. Sadece eksik veya bozuk dosyaları indirir; sağlam dosyaları yeniden indirmez.
+1. `pack.toml` dosyasını GitHub Raw üzerinden alır ve `index.toml`'un SHA-256 değerini doğrular.
+2. `index.toml` içindeki her mod (`metafile = true`) için ilgili `mods/*.pw.toml` dosyasını okuyup resmî indirme linkini ve hash'ini alır.
+3. `config`, `resourcepacks`, `options.txt` ve `servers.dat` içindeki her dosyayı ikili SHA-256 ile kontrol eder.
+4. Sadece eksik veya bozuk dosyaları indirir: modlar resmî CDN linkinden, diğer dosyalar GitHub Raw'dan. Sağlam dosyalar yeniden indirilmez.
 5. `mods` klasöründeki pakete ait olmayan JAR/JARBAK dosyalarını temizler.
-6. Kurulum sonunda yerel paket sürümünü ve index hash'ini `.karpuz-pack.json` dosyasına kaydeder.
-
-Mod JAR'ları büyük oldukları için Git'e eklenmez. `mods-manifest.json`, R2'deki ZIP arşivinin boyutunu/hash'ini ve arşivde kurulacak her benzersiz JAR'ın boyutunu/hash'ini taşır.
+6. `options.txt` ve `servers.dat` kullanıcı ayarlarını korur (yalnızca hiç yoksa indirilir; `preserve = true`).
+7. `options.txt` içindeki `gamma` değeri 1'in üzerindeyse hile sayılır ve 0.5'e çekilir.
+8. Kurulum sonunda yerel paket sürümünü ve index hash'ini `.karpuz-pack.json` dosyasına kaydeder.
 
 ## Depo yapısı
 
 ```text
 karpuz-files/
-├── pack.toml
-├── index.toml
-├── mods-manifest.json
+├── pack.toml                 ← sürüm, index.toml hash'i, MC/Forge sürümleri
+├── index.toml                ← packwiz refresh tarafından üretilen kanonik index
+├── .packwizignore            ← index'e alınmayacak repo dosyaları + yerel mod JAR'ları
+├── mods/
+│   └── *.pw.toml             ← her modun resmî indirme linki + hash'i (git'te)
+├── private-mods/             ← Karpuz Network'e ait özel mod JAR'ları (git'te)
 ├── config/
 ├── resourcepacks/
 ├── options.txt
 ├── servers.dat
-├── scripts/build_packwiz_from_zip.py
+├── scripts/
+│   ├── packwiz_add_from_jars.py   ← yerel JAR'lardan metafile + index üretir
+│   ├── private-mods.json          ← özel modların URL eşlemesi
+│   └── validate_pack.py           ← bütünlük zinciri doğrulama
 └── .github/workflows/
 ```
 
+Mod JAR dosyaları (`mods/*.jar`) büyük oldukları için Git'e eklenmez; indirme linkleri `mods/*.pw.toml` içindedir.
+
 ## Paketi güvenli biçimde yenileme
 
-Yeni `mods.zip` hazırlandıktan sonra mevcut arşivi ve bu depodaki manifestleri aynı sürümde tut:
+Ön koşullar: Python 3.12+, [packwiz](https://packwiz.infra.link/installation/) (PATH'te) ve CurseForge API anahtarı (`CF_API_KEY` — yalnızca bu betikte kullanılır, launcher'a asla girmez).
 
-```powershell
-python scripts/build_packwiz_from_zip.py "C:\paketler\mods.zip" --version 1.3.0
-```
+### 1) Mod ekleme / güncelleme / kaldırma
 
-Betik:
+1. Yeni/güncel mod JAR'larını yerel `mods/` klasörüne koyun (kaldırılacakları silin).
+2. Resmî linkleri çözümle ve metafile + index üret:
+   ```powershell
+   py scripts/packwiz_add_from_jars.py --cf-key $env:CF_API_KEY --cf-cdn-fallback
+   ```
+   Betik Modrinth (hash ile), CurseForge (fingerprint ile) ve `scripts/private-mods.json` sırasını dener;
+   çözülemeyen modları rapor eder ve durur. `--report-only` ile önce önizleme alabilirsiniz.
+3. Doğrula:
+   ```powershell
+   py scripts/validate_pack.py
+   ```
+4. Commit & push:
+   ```powershell
+   git add pack.toml index.toml mods/ private-mods/ scripts/private-mods.json
+   git commit -m "feat: modpack 1.5.1 - mod güncellemeleri"
+   git push
+   ```
 
-- `.jarbak` ve diğer devre dışı dosyaları pakete katmaz;
-- aynı SHA-256 değerine sahip birebir JAR kopyalarını eler;
-- bütün yönetilen dosyalar için `index.toml` üretir;
-- ZIP ve JAR hash'leriyle `mods-manifest.json` üretir;
-- `pack.toml` sürümünü ve kök hash'lerini günceller.
+### 2) Config / resource pack / ayar dosyası güncelleme
 
-Ardından ZIP dosyasını önce sürümlü adıyla, sonra `Karpuz-Network-Modpack.zip` sabit bağlantısıyla R2'de yayımla; değişiklikleri incele ve üç metadata dosyasını birlikte commit et. Arşiv ile manifest hash'i uyuşmadan Launcher kuruluma başlamaz.
+Mod JAR'larına dokunmadan sadece `config/`, `resourcepacks/`, `options.txt` veya `servers.dat` değiştiğinde:
+
+1. Dosyaları düzenleyin.
+2. Index'i yenileyin: `packwiz refresh` (metafile'lar değişmediği için hash'leri korunur; index hash'i ve varsa değişen repo dosyası hash'leri güncellenir).
+3. `py scripts/validate_pack.py` ile doğrulayıp commit edin.
+
+> [!CAUTION]
+> `packwiz refresh` yerel `mods/*.jar` dosyalarını index'e almamalıdır — bunun için `.packwizignore` içinde `mods/*.jar` kuralı bulunur. Bu kuralı silmeyin.
+
+## Özel modlar (Karpuz Network'e ait)
+
+`karpuzbadge` gibi kendi yazdığımız ve resmî platformlarda bulunmayan modlar `private-mods/` klasöründe barındırılır; `mods/*.pw.toml` metafile'ındaki `url` alanı bu dosyaları GitHub Raw üzerinden işaret eder. Ayrıntılar: `private-mods/README.md`.
 
 ## Lisans
 

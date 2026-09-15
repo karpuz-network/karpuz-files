@@ -1,0 +1,8 @@
+name = "Econ: Market and Commerce"
+filename = "econmc-1.0.11.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8002/784/econmc-1.0.11.jar"
+hash-format = "sha256"
+hash = "1450883869e5971b03d79907d335c23be7d0e73de79c918075e77b83cda13cd5"

@@ -3,609 +3,586 @@ hash-format = "sha256"
 [[files]]
 file = "config/fancymenu/assets/gui/button.png"
 hash = "e04d99ac20c1ed02b7b0a053487ec86f713fc13b04a9ab0d94012669eb4819e6"
-size = 7528
 
 [[files]]
 file = "config/fancymenu/assets/gui/button_hover.png"
 hash = "4d31b952478e54a3ad6241c7aaccd6d39c4b9219aff10d1d5eab92e238af3192"
-size = 7565
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
 hash = "68ae2b65a422c0f2ecb8f800e4294797ab155eefd5f2d648c0d53c33b755f46d"
-size = 193489
 
 [[files]]
 file = "config/fancymenu/assets/splashtext.txt"
 hash = "db75acc2a7679bffb45ac1d6900707fec6b4972ae3dc9206a8108a760ada4323"
-size = 108
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ca5b033fa95bfa4a2beafaab19f5f2ca82b38728805b4868b71d14d92e95ddb0"
-size = 306
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "59156fa7082fa6e92b8163d8dc87ab6b854a44d0797c8389147d8a3372fd01b7"
-size = 200
 
 [[files]]
 file = "config/fancymenu/customization/disclaimer_layout.txt"
 hash = "c3a4201abef04191dd6cd5395c84a16a50763bfe3ffecc814566b1e08525e124"
-size = 16102
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
 hash = "be1664811e823340e3a384a01940cba79e5f4553f2bb4683d4f70beb79444e4d"
-size = 66988
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
 hash = "0ca6f5b7af8e11b2f568222df097d8202377d6546a7f9d48b1cf8669d1a64ed5"
-size = 219
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
-size = 42
 
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab"
-size = 4400
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
 hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
-size = 9349
 
 [[files]]
 file = "config/fancymenu/ui_themes/cozy_campfire.json"
 hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
-size = 9347
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
 hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
-size = 9329
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark_high_contrast.json"
 hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
-size = 9359
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
 hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
-size = 9331
 
 [[files]]
 file = "config/fancymenu/ui_themes/light_high_contrast.json"
 hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
-size = 9361
 
 [[files]]
 file = "config/fancymenu/ui_themes/pumpkin_soup.json"
 hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
-size = 9345
 
 [[files]]
 file = "config/fancymenu/ui_themes/purple_void.json"
 hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
-size = 9343
 
 [[files]]
 file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
-size = 9347
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "1b287025595ebc2862c9506ced6505f23189bd6f79c03bac717ad56d90c68394"
-size = 25
 
 [[files]]
-file = "mods/Apotheosis-1.20.1-7.4.8.jar"
-hash = "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
-size = 2803994
+file = "mods/3dskinlayers.pw.toml"
+hash = "e5ddd140cb0fba6719fca5f3cce75b6076bf947fc74e501fe855164613aed1fc"
+metafile = true
 
 [[files]]
-file = "mods/ApothicAttributes-1.20.1-1.3.7.jar"
-hash = "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
-size = 227511
+file = "mods/aether.pw.toml"
+hash = "ba28bbba44c3080e6fd1042b5d7c4a2f4f432b255eebcc0612782a5459ff26eb"
+metafile = true
 
 [[files]]
-file = "mods/Aquaculture-1.20.1-2.5.7.jar"
-hash = "4c96cf0dd3363a8e15f9ef6b6bfc00ac7d4791e8e9eeebe19b8092c59e800f8f"
-size = 601839
+file = "mods/alexs-caves.pw.toml"
+hash = "bafeda35072d33699e97201916d5d0f5a5acb09b4aa89b3c2b76267816cf62af"
+metafile = true
 
 [[files]]
-file = "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
-hash = "330f482487ac3135557b6e898d7e1ae5330321e9cfd5ba63e13a16cf2e8d8b98"
-size = 22381010
+file = "mods/alexs-mobs.pw.toml"
+hash = "c54b1664bfc71308dfcd6eaf865aa5bf04fe0b9c6856cd5fabcf9db56e49705f"
+metafile = true
 
 [[files]]
-file = "mods/BuildingWands-forge-MC1.20.1-3.0.5.jar"
-hash = "cfbfe44b5c3aa34296ccb9701e1a53ec1fd2f52858be45e335d99b405c760eb8"
-size = 443587
+file = "mods/allthemodium.pw.toml"
+hash = "d2245dd4e012beceee1b8c1a46bfa5ef8f3b0af73bebe2e767be078de6c8d061"
+metafile = true
 
 [[files]]
-file = "mods/Chunky-1.3.146.jar"
-hash = "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141"
-size = 341451
+file = "mods/apotheosis.pw.toml"
+hash = "c14b5c36ccc904a026301eeebfc5dfa879ebd5fbac234af83b01638e7adb5e77"
+metafile = true
 
 [[files]]
-file = "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
-hash = "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
-size = 20299
+file = "mods/apothic-attributes.pw.toml"
+hash = "681e409c85f1a39c55a55114a781ecafd988f035b45e880821e5d506ff6bb9ac"
+metafile = true
 
 [[files]]
-file = "mods/Controlling-forge-1.20.1-12.0.2.jar"
-hash = "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944"
-size = 115280
+file = "mods/appleskin.pw.toml"
+hash = "2877c8232c72aa8563e5194e036c4810193d4d35a0c9d47fc20f6e3a6399d619"
+metafile = true
 
 [[files]]
-file = "mods/CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260711.jar"
-hash = "604916a1cd0949fd426cab5fad8f839037d7e6f74d9f18a9afbeaa7731edfc38"
-size = 10873769
+file = "mods/aquaculture.pw.toml"
+hash = "9da918f7585671cfc62902675ccc89ef4007837101f3bd263ed8b07d7665754c"
+metafile = true
 
 [[files]]
-file = "mods/Dungeon Crawl-1.20.1-2.3.15.jar"
-hash = "71e1b8ceaf20c3102ae42ef2761ca47f30fe4cbd20ecbb687df2ce75d1785514"
-size = 758123
+file = "mods/aquamirae.pw.toml"
+hash = "807f503d9bc45f219c30056c062b018bb8f65924c34f788eb4711b0371fb287d"
+metafile = true
 
 [[files]]
-file = "mods/FastFurnace-1.20.1-8.0.2.jar"
-hash = "970c11c090e7a364e2e006aabb5e573f79901e710e97195334ee5802317776e8"
-size = 6170
+file = "mods/architectury-api.pw.toml"
+hash = "fc0cb97d83b57adc9e26fd7b9891b6cbb37cbe26524ba030adc1a075388d7a3d"
+metafile = true
 
 [[files]]
-file = "mods/Galosphere-1.20.1-1.5.2-Forge.jar"
-hash = "b9a749b0dff0c8e306f9395f7f757d05f1530cd18dcb2d984be5f46180e623f1"
-size = 35767244
+file = "mods/artifacts.pw.toml"
+hash = "4eb774c6b23ac7990a369b1b1c1c27613f235781bf1647374f33533dfb23a867"
+metafile = true
 
 [[files]]
-file = "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar"
-hash = "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61"
-size = 87550
+file = "mods/ato.pw.toml"
+hash = "548bd76c9acf39adcbf1d70808df70864625358721f86a5cc767c6307e00dee9"
+metafile = true
 
 [[files]]
-file = "mods/Iceberg-1.20.1-forge-1.1.25.jar"
-hash = "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
-size = 134551
+file = "mods/balm.pw.toml"
+hash = "8f41b918b1b92c5d895357e3adc44a22cb86da57ea23e4b693e0c9544575e53a"
+metafile = true
 
 [[files]]
-file = "mods/Incendium_1.20.x_v5.3.5.jar"
-hash = "96068e4d66ea503efebb1e31d28c2d6ce85db749049463cab9f799c8c0ae1e75"
-size = 4638945
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "a535d5f66dc6e9b1c7f3fa2e1062067d734797655447926b3aecfafd7d929335"
+metafile = true
 
 [[files]]
-file = "mods/Jade-1.20.1-Forge-11.13.3.jar"
-hash = "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
-size = 553487
+file = "mods/blue-skies.pw.toml"
+hash = "6b823530469df553a95f97245b102e6b077c32418d0b08f287741e9b0d992979"
+metafile = true
 
 [[files]]
-file = "mods/L_Enders_Cataclysm-3.31.jar"
-hash = "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
-size = 73916104
+file = "mods/borninchaos.pw.toml"
+hash = "9a3ed9e7d82146867b562417389058a4e839c8425e7e1b5a7c5f50dbe5b00ce7"
+metafile = true
 
 [[files]]
-file = "mods/LuckPerms-Forge-5.4.102.jar"
-hash = "935beff65a4d248880e004ccb5fc2f1cc5d63d3f24870ff8d472cbefa31016da"
-size = 1398478
+file = "mods/building-wands.pw.toml"
+hash = "07fd7cd58b8301b39dec5f3fd5d02b1b88a0d1d6c9d3bb01a5dc3a5c2672bc12"
+metafile = true
 
 [[files]]
-file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
-hash = "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
-size = 76237
+file = "mods/canary.pw.toml"
+hash = "2f2095c6b2ed1dd74546e7e4fae6111c912453c10c1c802d874bc402f41f805f"
+metafile = true
 
 [[files]]
-file = "mods/NaturesCompass-1.20.1-1.12.0-forge.jar"
-hash = "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
-size = 227495
+file = "mods/chunky.pw.toml"
+hash = "de90c27bd104871171a2cfafeec097e80b0ce7f643e7465cffcdfa940ca90bb4"
+metafile = true
 
 [[files]]
-file = "mods/Neat-1.20.1-41-FORGE.jar"
-hash = "c850ba870e044f0e18d1dee236dc5863e9ad3b38a70c0741c72813776d35c11e"
-size = 30595
+file = "mods/citadel.pw.toml"
+hash = "4d9449c0f864200aa513cecc29b7a7463c5bc0c77f78c9976053b9a94efad4ac"
+metafile = true
 
 [[files]]
-file = "mods/Nullscape_1.20.x_v1.2.8.jar"
-hash = "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5"
-size = 399214
+file = "mods/cloth-config.pw.toml"
+hash = "56ac736130e4a37f0ef30cb2b329b3eddc3433debf127f50dd9a3ef962fc5a51"
+metafile = true
 
 [[files]]
-file = "mods/Placebo-1.20.1-8.6.3.jar"
-hash = "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
-size = 282474
+file = "mods/clumps.pw.toml"
+hash = "8457865b2593e8efd18c12024f2f50ed80171cb935fd3c56fd6d2e34366e5813"
+metafile = true
 
 [[files]]
-file = "mods/Prism-1.20.1-forge-1.0.5.jar"
-hash = "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
-size = 52205
+file = "mods/controlling.pw.toml"
+hash = "99649d7fbf780b238c4aaf2cee11ee045cc4f8ee64708acd54222bdba145cd48"
+metafile = true
 
 [[files]]
-file = "mods/Quark-4.0-462.jar"
-hash = "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478"
-size = 14935230
+file = "mods/corail-tombstone.pw.toml"
+hash = "1e36b86acb8e1f3598d78c81db43e662ea0a09ecb9d69b436bac59933e836f35"
+metafile = true
 
 [[files]]
-file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
-hash = "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
-size = 77732
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "3a49342d138269879eb419307255b751783e3cfcf824849adf7ab85fb867b58b"
+metafile = true
 
 [[files]]
-file = "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
-hash = "c109016f46ca9bdae69976bf080bbf2e8e5968cb66c0a78845f8ca6af5dbbeb1"
-size = 107532
+file = "mods/curios.pw.toml"
+hash = "3b3c9650a290050fd5a3b613fb7b6709d7b00c04d9b7006ad5cf415430d6ff43"
+metafile = true
 
 [[files]]
-file = "mods/Zeta-1.0-31.jar"
-hash = "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e"
-size = 1006518
+file = "mods/customnpcs-unofficial.pw.toml"
+hash = "544c9bbb1a6565732bc31dc821416bb2db3c11fd1176b7381998d30a746a143f"
+metafile = true
 
 [[files]]
-file = "mods/aether-1.20.1-1.5.2-neoforge.jar"
-hash = "5cb64ab1f27e78e8338fe67f9c766578904aad9bc1f8bcc90f306ea52aea3fc5"
-size = 39746319
+file = "mods/dcintegration.pw.toml"
+hash = "47b64efa7373178e92a9bbf0e36ee8ed13d69a40217b21e5d94e24a15ab66942"
+metafile = true
 
 [[files]]
-file = "mods/alexscaves-2.0.2.jar"
-hash = "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
-size = 74871657
+file = "mods/dungeoncrawl.pw.toml"
+hash = "c7a818fc35b0e314cf5c71a5a58a9a5aa5f264941154573c93d4c5bc7281e6fe"
+metafile = true
 
 [[files]]
-file = "mods/alexsmobs-1.22.9.jar"
-hash = "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
-size = 26350793
+file = "mods/eating-animations.pw.toml"
+hash = "b5a17df1b98324646cf124de47b96feb20f7f0e7dbf84e917fadddd69dc1d3d5"
+metafile = true
 
 [[files]]
-file = "mods/allthemodium-1.20.1-47.1.25-2.5.7.jar"
-hash = "8846802f2eba917da079bbb11081ed66c73afc5d81cceb2270e15c627b722037"
-size = 1822082
+file = "mods/econ-market-and-commerce.pw.toml"
+hash = "b8d87fd4364721e0a0836dc42888da4e4ca4805c72bf4f9ffd3ae769d3d720f5"
+metafile = true
 
 [[files]]
-file = "mods/alltheores-1.20.1-47.1.3-2.2.4.jar"
-hash = "b3aee8294e1a285f875192745194b910d945a09beeb050f25a2eb37ddc497408"
-size = 1073852
+file = "mods/economy-economy-plus.pw.toml"
+hash = "f51d3d77fd4fa429d7b857dcf8a0e4e5add2996f796b54f6effba5d5beb65117"
+metafile = true
 
 [[files]]
-file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
-hash = "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
-size = 47428
+file = "mods/embeddium.pw.toml"
+hash = "6cd694fec8110dc6537b1db60cf93a062b043794c69e3f04bab2b0629ab2c4d5"
+metafile = true
 
 [[files]]
-file = "mods/aquamirae-forge-1.20.1-7.1.10.jar"
-hash = "bf7cedf6d23854b01e3e13190a5570a3a8ef5c037765e67812d9acd9b3b99c18"
-size = 25896970
+file = "mods/fancymenu.pw.toml"
+hash = "111167982affeb345769bddd0521783489f5a6cfa58ae68284d799443d476151"
+metafile = true
 
 [[files]]
-file = "mods/architectury-9.2.14-forge.jar"
-hash = "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
-size = 580602
+file = "mods/fastfurnace.pw.toml"
+hash = "27e5e057931dea63efa8e13ed37315de0e69d8d97fb6bdf73db12f6d2be758fc"
+metafile = true
 
 [[files]]
-file = "mods/artifacts-forge-9.5.19.jar"
-hash = "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0"
-size = 850974
+file = "mods/ferrite-core.pw.toml"
+hash = "d7e7d7f4c1ecb09a24a42fe0b5f74279f64140cf8cb9c5cbb9ae056ca04d14d8"
+metafile = true
 
 [[files]]
-file = "mods/balm-forge-1.20.1-7.3.41-all.jar"
-hash = "053205e3dac0d19fcff4aa3d4f5e4df48d3398b54d446d65fb918c520429e11a"
-size = 559741
+file = "mods/fragmentum.pw.toml"
+hash = "6a8391f10151e531375fef90d01633b90164f9395d9d37a0995f0c14472f1fe4"
+metafile = true
 
 [[files]]
-file = "mods/blue_skies-1.20.1-1.3.31.jar"
-hash = "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748"
-size = 83564111
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "f5881941f453b3fd94a1090da902dcf329aba39109d02531170e9ec1c0fa1d92"
+metafile = true
 
 [[files]]
-file = "mods/born_in_chaos_[Forge]1.20.1_1.7.5.jar"
-hash = "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
-size = 11839865
+file = "mods/ftb-library-forge.pw.toml"
+hash = "2bf23f7f9a6e72d3c636ce8773fd2ee7ce33a31529cf17e85ec983640b51694a"
+metafile = true
 
 [[files]]
-file = "mods/canary-mc1.20.1-0.3.3.jar"
-hash = "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
-size = 594191
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "d7cf6b9a75777ec416797b8b8cda5e0ac8f0c9ab0e74a31840a3a78644c3249b"
+metafile = true
 
 [[files]]
-file = "mods/citadel-2.6.3-1.20.1.jar"
-hash = "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
-size = 3185275
+file = "mods/ftb-ranks-forge.pw.toml"
+hash = "a82177f73e5bb782ea9d50c6c2a25355be7e00a0234122e54487efd6d488a67d"
+metafile = true
 
 [[files]]
-file = "mods/cloth-config-11.1.136-forge.jar"
-hash = "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
-size = 1181413
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "82bcc43a613d5033aa6732188f60520092838a9e39e44425fc7d4fc4b2d36dde"
+metafile = true
 
 [[files]]
-file = "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
-hash = "c790e8671625b05ec0aa19272e0ea74ea95619f953e3c6f39a6736af0d386804"
-size = 88752
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "7ef86278cb377f14836115e6718dda294dad78654fefafba20488f7bcf9b1b22"
+metafile = true
 
 [[files]]
-file = "mods/curios-forge-5.14.1+1.20.1.jar"
-hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
-size = 398066
+file = "mods/galosphere.pw.toml"
+hash = "bfaefcf6033acb13147981e0c6db9e5d7d234deac5b4423e5c2e3c844bcf2395"
+metafile = true
 
 [[files]]
-file = "mods/dcintegration-forge-3.0.7.1-1.20.1.jar"
-hash = "8da9fbc532229b4d55b4857c7fc28ded385ca6e621e95ba393a584aadef7868d"
-size = 16358023
+file = "mods/geckolib.pw.toml"
+hash = "d1fee3d2cfa3f5fe838ec6338522609dfe02b86b83eab6bc358605519489a2a2"
+metafile = true
 
 [[files]]
-file = "mods/eatinganimation-1.20.1-5.1.0.jar"
-hash = "506ffc2e2bcc5709c8121382c5d0428ca642ceaeebe2a9169c9b0475a83c657c"
-size = 294792
+file = "mods/glitchcore.pw.toml"
+hash = "c76a88c5dbd4cfb71f4acadb3d0d8b02971b1eeaedd0c9ef296fc42c48dbc3ab"
+metafile = true
 
 [[files]]
-file = "mods/econmc-1.0.11.jar"
-hash = "1450883869e5971b03d79907d335c23be7d0e73de79c918075e77b83cda13cd5"
-size = 1006322
+file = "mods/gml.pw.toml"
+hash = "7f2353e4621608bb76459a52e874bcd78b505f5fc2bc8b065577e016a9fdf736"
+metafile = true
 
 [[files]]
-file = "mods/economy-1.0.1.jar"
-hash = "6f4726e586300d0611c9972f89959be9711c4f25c48d60408e5aa5b19ddd318d"
-size = 534596
+file = "mods/iceberg.pw.toml"
+hash = "3832039c9ea23b35758252f7beb8899d2b9b82b4d56ffbf96993e47d9bc78d3e"
+metafile = true
 
 [[files]]
-file = "mods/embeddium-0.3.31+mc1.20.1.jar"
-hash = "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
-size = 1320675
+file = "mods/incendium.pw.toml"
+hash = "9c496c8f71f432e20fbe9dc9e896abd97323db83b0f2465a550b40ba90bb609c"
+metafile = true
 
 [[files]]
-file = "mods/fancymenu_forge_3.9.9_MC_1.20.1.jar"
-hash = "686253f50d103e21cc04b8710ab9ba4ba788916ad852620040308f3f08512fab"
-size = 26174014
+file = "mods/inventory-sorter.pw.toml"
+hash = "d73d5826305b7b7039ab0730cf26b79cfe7cd65f873c10bd4ed89a8fd583d315"
+metafile = true
 
 [[files]]
-file = "mods/ferritecore-6.0.1-forge.jar"
-hash = "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
-size = 123034
+file = "mods/inventoryhudplus.pw.toml"
+hash = "61da99d55634f658c6812cd697a89e199be5f341b0507ef3ce02c15cdb5ca70d"
+metafile = true
 
 [[files]]
-file = "mods/fragmentum-forge-1.20.1-1.5.2.jar"
-hash = "c5d12e49e31af941f0dc96b2c9e6e6368ceaa0d4dac24f83af4431f49bca262d"
-size = 2737065
+file = "mods/iron-furnaces.pw.toml"
+hash = "f29c4ef8e28978e5766d442ce13adbb631e14d726c1fb1ce1882718116fe64a6"
+metafile = true
 
 [[files]]
-file = "mods/ftb-chunks-forge-2001.3.8.jar"
-hash = "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02"
-size = 1159043
+file = "mods/jade.pw.toml"
+hash = "a6f0f73da40785ce2e38d9c4114e1841251b112316ec8b5174e49ddc0b2d2eb2"
+metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge-2001.2.13.jar"
-hash = "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
-size = 780558
+file = "mods/jei.pw.toml"
+hash = "8f368e86c4e5e255fc989b4c0564f3e7db9a2dfaf9dfae817c6c6a30ed51312c"
+metafile = true
 
 [[files]]
-file = "mods/ftb-quests-forge-2001.4.22.jar"
-hash = "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
-size = 1255469
+file = "mods/karpuzbadge.pw.toml"
+hash = "9c8784ffd31508ab3460fdbc46400b0de5460d6d27781d9979cec9a0bf4f33cb"
+metafile = true
 
 [[files]]
-file = "mods/ftb-ranks-forge-2001.1.7.jar"
-hash = "ec654cb94b3be8217da91f114667d7b0170c7be2ed533ac7e4faa337d1f5b872"
-size = 87362
+file = "mods/konkrete.pw.toml"
+hash = "372247381c4b53c0928b19c97496625d6d97709f795b1beb0a071f7da992855d"
+metafile = true
 
 [[files]]
-file = "mods/ftb-teams-forge-2001.3.2.jar"
-hash = "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
-size = 252579
+file = "mods/kubejs-gui.pw.toml"
+hash = "849fce87a8580c281bc370af408803a7b45343ea3b5aa5c8028b7ef4cb7f2902"
+metafile = true
 
 [[files]]
-file = "mods/ftb-ultimine-forge-2001.1.8.jar"
-hash = "b80dde55b2c91fd27f09f15ed2aefb0756c7bd704316e488ae8a06b179e85730"
-size = 129653
+file = "mods/kubejs.pw.toml"
+hash = "030f2ff48ca6d6a0520d77495e020f4e5f3771e25678a47f0d4bb625f0575159"
+metafile = true
 
 [[files]]
-file = "mods/geckolib-forge-1.20.1-4.8.4.jar"
-hash = "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747"
-size = 1038209
+file = "mods/l-enders-cataclysm.pw.toml"
+hash = "cd75e4e9b3bf1e421fa3c482d022e0a8ef6ae478daca1a04d92f4804dcc3d8d5"
+metafile = true
 
 [[files]]
-file = "mods/gml-4.0.11-all.jar"
-hash = "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4"
-size = 11125541
+file = "mods/lionfish-api.pw.toml"
+hash = "5e8f5633fdcfd89cc654d3307368a494551985d7493aae867c9ba43537ee50ab"
+metafile = true
 
 [[files]]
-file = "mods/inventoryhud.forge.1.20.1-3.4.26.jar"
-hash = "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
-size = 238088
+file = "mods/loot-journal.pw.toml"
+hash = "e8f445236de659e34b0b3a92572c135d5861cc915e3b2e4d78ab3c07120aa674"
+metafile = true
 
 [[files]]
-file = "mods/inventorysorter-1.20.1-23.0.11.jar"
-hash = "987bfb57aaaad23189c9747cb7177b8b20208f5fa1f23a09e442ed7711136263"
-size = 54267
+file = "mods/lootr.pw.toml"
+hash = "66e74a28e8adf4763266f35336a44c9ceed4a43f46725399777df1a0413a0b27"
+metafile = true
 
 [[files]]
-file = "mods/ironfurnaces-1.20.1-4.1.8.jar"
-hash = "e457052522cef1f8644b6929a64eab96de04ce9e6e32a715f1d68d79da26d66b"
-size = 612921
+file = "mods/luckperms.pw.toml"
+hash = "15f6bf18a8ed3195b3aec88c3667ce62d5cdfbb3067f4d2670681d9f2b2ec01b"
+metafile = true
 
 [[files]]
-file = "mods/jei-1.20.1-forge-15.21.0.148.jar"
-hash = "0c5f1aeca0376c1c5d55ccb7bbe9bb391891ce12ef8cb8cb437150abee9a19c9"
-size = 1426211
+file = "mods/macaws-furniture.pw.toml"
+hash = "2cdf8ad53bceaa1b4ee2abb2ed03561d929e870809b2c9cacf393a1301e7f796"
+metafile = true
 
 [[files]]
-file = "mods/karpuzbadge-1.0.0.jar"
-hash = "a281226980eb234c361cef7e105888b4594d78b306172d371148266b6a66736c"
-size = 9535
+file = "mods/majrusz-library.pw.toml"
+hash = "3505ae08d0d235946540f76ac0706fc3183f9ee564c23b300b1f421b8aa00dff"
+metafile = true
 
 [[files]]
-file = "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
-hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
-size = 625185
+file = "mods/majruszs-progressive-difficulty.pw.toml"
+hash = "9cba8b8974c9e0633d2beb98c7c28b87440a00178511a34552ff120c85a143f6"
+metafile = true
 
 [[files]]
-file = "mods/kubejs-forge-2001.6.5-build.14.jar"
-hash = "c582dcafa3fd6a1f3cae6008cd22f9c6be19cd43ea8f5ce482e90f53285f896b"
-size = 1654724
+file = "mods/melody.pw.toml"
+hash = "3d02e265294edfbcadf7e377a00d36414a0bd76cf4aee716ea84f0a1ec16b1af"
+metafile = true
 
 [[files]]
-file = "mods/kubejs_gui_2_1201-forge-1.0.0.jar"
-hash = "028189e5df5ae78de8893e8a488b5560dea31e81748599cd6d5aaa47d1695523"
-size = 192109
+file = "mods/missing-mods-checker.pw.toml"
+hash = "328bfe57c2731f4a175489f0e2cb1bf7d9ba79f9300ba5918bb608c987133af0"
+metafile = true
 
 [[files]]
-file = "mods/lionfishapi-3.0.jar"
-hash = "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
-size = 101931
+file = "mods/modernfix.pw.toml"
+hash = "06c40ca48a1839d08115c9db0cc6af445b05eea879b2dc93fa990bdc6187e9c9"
+metafile = true
 
 [[files]]
-file = "mods/loot_journal-forge-1.20.1-6.2.1.jar"
-hash = "46c17475ca54ffa6d16b8d185ceeac9547b01f0c8735689e8fea86f573b20e9a"
-size = 939923
+file = "mods/modular-toasts.pw.toml"
+hash = "59b30e663e026d1eddc72ef725e9b5ab02146af9361ee0503ef5829b76c23b70"
+metafile = true
 
 [[files]]
-file = "mods/lootr-forge-1.20-0.7.35.94.jar"
-hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
-size = 463485
+file = "mods/morejs.pw.toml"
+hash = "2d0d028e0d39aadb3d34d5cb39e4d7d450f9d3290c6561c48b3385c0df94323e"
+metafile = true
 
 [[files]]
-file = "mods/majrusz-library-forge-1.20.1-7.0.8.jar"
-hash = "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
-size = 437340
+file = "mods/mouse-tweaks.pw.toml"
+hash = "bc7145842bc8068d4d7ce0baf4724ed01f7e64c6e63ee5c3c405f0a59527ed4a"
+metafile = true
 
 [[files]]
-file = "mods/majruszs-difficulty-forge-1.20.1-1.9.10.jar"
-hash = "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
-size = 777242
+file = "mods/natures-compass.pw.toml"
+hash = "2c828a48e2648e0d334c5f883f79e85d82ff62a20347eacfdf11cfdd876025e3"
+metafile = true
 
 [[files]]
-file = "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar"
-hash = "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d"
-size = 2174615
+file = "mods/neat.pw.toml"
+hash = "b5bf58101e3945e4046a8dc450437811565b481ba89aee125ff8f83795a24fa7"
+metafile = true
 
 [[files]]
-file = "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
-hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
-size = 37178
+file = "mods/nullscape.pw.toml"
+hash = "05a03d42343dda99f497cfaa51705c1161661748556550cd8d8901bf14b6fb71"
+metafile = true
 
 [[files]]
-file = "mods/missingmodschecker-forge-1.0.1-1.20.1.jar"
-hash = "1dc1188f5321144299412937f3965990d518376790bd7285b9867acce618332e"
-size = 407080
+file = "mods/oculus.pw.toml"
+hash = "6dc02c8bd36737df6c303e1099c468e3ac4f8850d23ad08dfd9961664a47c9c8"
+metafile = true
 
 [[files]]
-file = "mods/modernfix-forge-5.27.66+mc1.20.1.jar"
-hash = "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
-size = 1002234
+file = "mods/placebo.pw.toml"
+hash = "d52eace17f028056ccdd4241caf6e3ca53bb6fae80d372f17edf3e8464511b29"
+metafile = true
 
 [[files]]
-file = "mods/modulartoasts-1.0.1.jar"
-hash = "a267583495a8657246d195ae8b9a5121fea27c84ea921c3eb5caa778f9b05b57"
-size = 73059
+file = "mods/prism-lib.pw.toml"
+hash = "18a8e73fa923dd2505adcc8219441fc0061e0063c4a00716c54056e195092886"
+metafile = true
 
 [[files]]
-file = "mods/morejs-forge-1.20.1-0.10.1.jar"
-hash = "bffc387943fb6bdfef8fcb6857aaa285f0a33575c9ada3cd66f54352cdb82892"
-size = 173745
+file = "mods/quark.pw.toml"
+hash = "6834f180e612c0b9ccaaeac8abe542ee3219eafa5ca94d2e18c8a5cfeed21e99"
+metafile = true
 
 [[files]]
-file = "mods/oculus-mc1.20.1-1.8.0.jar"
-hash = "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
-size = 2851119
+file = "mods/resourceful-lib.pw.toml"
+hash = "320b6337a3ab32c34a98fc64be049fac1fca1917312d716007059fda5ce72fc9"
+metafile = true
 
 [[files]]
-file = "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
-hash = "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
-size = 432753
+file = "mods/rhino.pw.toml"
+hash = "4f6a9b442427b76334b474a8a35c458aa158501fd7b530c60eae1f1cde59ef16"
+metafile = true
 
 [[files]]
-file = "mods/rhino-forge-2001.2.3-build.10.jar"
-hash = "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
-size = 1798244
+file = "mods/searchables.pw.toml"
+hash = "c24fcc3ffa78b35cc42b560770ac870a689416f09e514e5b042db74c0016cbe8"
+metafile = true
 
 [[files]]
-file = "mods/simplyswords-forge-1.56.0-1.20.1.jar"
-hash = "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f"
-size = 15202091
+file = "mods/simply-swords.pw.toml"
+hash = "5e9d9dd3533f0771a25a89736c16c9194d36a8b8473404440ead98086390c595"
+metafile = true
 
 [[files]]
-file = "mods/skinlayers3d-forge-1.11.2-mc1.20.1.jar"
-hash = "2d35eff3e2642e8a6f7fb4cc7461211699ee2e32b9644e0d3b3bd6ba1574551c"
-size = 2168901
+file = "mods/skinrestorer.pw.toml"
+hash = "3882b8117b6e8b4c66100cf88f62cfd54b2ab1c3edee8057de4ed9d049c2a689"
+metafile = true
 
 [[files]]
-file = "mods/skinrestorer-2.10.0+1.20-forge.jar"
-hash = "2f201b30da26d3a6302be4af0fe89a0cc5bdd91351488443b8ff848b8efdf2ef"
-size = 278170
+file = "mods/small-ships.pw.toml"
+hash = "a796c99bc91866c155a428932cd19235b1a260546b2cdd71f618b50f8580d3ee"
+metafile = true
 
 [[files]]
-file = "mods/smallships-forge-1.20.1-2.0.0-b1.4.jar"
-hash = "f79a4dcab3e1c8e4d14467cbfa655f4a16e0f0d0901e8f9bde9e3f5e36735eff"
-size = 1816687
+file = "mods/sols-authlogin.pw.toml"
+hash = "d6b7621a6e9a0fa5b45a20965581caabb90329c7f4805d4bfb1b80b29e0c85fc"
+metafile = true
 
 [[files]]
-file = "mods/solsauthlogin-1.20.1-1.3.jar"
-hash = "9faf7a4a4a4e2abeaabd83e747f6e641537e307e1820adc2e068691d2e11f11f"
-size = 96643
+file = "mods/sols-title-system.pw.toml"
+hash = "163c2f3a73636bff5bdb423ed8a6b45060a197cd3ab7dbacc39259779d5c4c80"
+metafile = true
 
 [[files]]
-file = "mods/solstitlesystem-1.20.1-1.4.4.jar"
-hash = "9597035f4e17fd4eb511668572d44450748e1e66dc6e65e2d31acba480ab27dd"
-size = 246616
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "06557e6a3fdd92c3e840efcc9a6b939409e655d7706cdf548d75d22fad992b60"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar"
-hash = "ffa11da88bde6ed6158bfba25e2e33005260b080a4558cc4f85be7baea9f9220"
-size = 1130880
+file = "mods/sophisticated-core.pw.toml"
+hash = "0edfc587bdeffd135ac666e2006d38b263384ca84689cf0c50b2b8cd99f628b8"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedcore-1.20.1-1.3.73.2192.jar"
-hash = "96c0fa99f790df039116278518fbc78d858ea43cf2d317031e7d81fb2706a7a3"
-size = 1622705
+file = "mods/sophisticated-storage.pw.toml"
+hash = "000844d153a7b72e7bfa8bc85d4572c3bdf4b3b873d09cc2eb65b0112adff27b"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedstorage-1.20.1-1.4.78.2029.jar"
-hash = "78178396a5c59675a74b11b6b36b4f2735edc2a61e4414b6610648cf12844122"
-size = 1822732
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "b451f43b5ddf98df60247b20a47222fb289d8d3c87953b741f9608feef7c4c47"
+metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
-hash = "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1"
-size = 203819
+file = "mods/structure-gel-api.pw.toml"
+hash = "0178c707b322ecfb3ebf97c76904018f04da58b627cbee9c57ea2b1c2580f605"
+metafile = true
 
 [[files]]
-file = "mods/structure_gel-1.20.1-2.16.2.jar"
-hash = "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
-size = 966028
+file = "mods/terrablender.pw.toml"
+hash = "d82c1c600ed0fda8642e6be7cf7e313f5ca4569631470d4b2bd591feec9ecfca"
+metafile = true
 
 [[files]]
-file = "mods/tombstone-1.20.1-9.1.3.jar"
-hash = "9ecfa6768aee0e4f344d866ae51809d34ca5bffcbf9b444b4239419751d259b8"
-size = 2581467
+file = "mods/txnilib.pw.toml"
+hash = "496846f435f4125e96d637b0c3afbcbc00dfc8f028dedb0905fa6d79186c4c7a"
+metafile = true
 
 [[files]]
-file = "mods/txnilib-forge-1.0.24-1.20.1.jar"
-hash = "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e"
-size = 3743339
+file = "mods/waystones.pw.toml"
+hash = "44387e09b10ae89a3ad8ea7dbcced80f7c9abf16a2187562cf1f23a24b677cfb"
+metafile = true
 
 [[files]]
-file = "mods/waystones-forge-1.20.1-14.1.20.jar"
-hash = "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
-size = 533738
+file = "mods/zeta.pw.toml"
+hash = "33b8556009a41e4f44db0dec7f4a4f3f6e39f9bdc64a6965fcc90b59fbce06e7"
+metafile = true
 
 [[files]]
 file = "options.txt"
 hash = "dba6574a73fc148c12a068736077d36fdbce1a90e27a4403c79dfe9489e9c94a"
-size = 10676
+preserve = true
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/assets/minecraft/textures/gui/widgets.png"
 hash = "2ee2d76877e9298ed84c5d230e07e58d57b5e97b160d30cc541ba8a2dd0cee17"
-size = 17440
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/pack.mcmeta"
 hash = "3f52b1a681aff424ade001987b7eb60f1159067999a0520f996b2bcc10a1757f"
-size = 92
 
 [[files]]
 file = "servers.dat"
 hash = "14ee4b804395634d5623509d26c796a991a2555ec274fcfc9b1a9eaf7ac22e29"
-size = 16013
+preserve = true

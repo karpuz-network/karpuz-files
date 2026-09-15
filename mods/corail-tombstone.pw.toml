@@ -1,0 +1,8 @@
+name = "Corail Tombstone"
+filename = "tombstone-1.20.1-9.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YT5K34AB/versions/iVaWMsvS/tombstone-1.20.1-9.1.3.jar"
+hash-format = "sha512"
+hash = "808ff4b83625b857aa83f4b81ee4214d882af1b927298164b47f707f1813c239cbdc70ab2653e59358c52a28f67860083140c20b7e94dae191e280978aac5c43"

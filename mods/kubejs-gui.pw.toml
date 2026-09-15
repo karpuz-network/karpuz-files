@@ -1,0 +1,8 @@
+name = "KubeJS GUI Overhauled"
+filename = "kubejs_gui_2_1201-forge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/i8DkrJYa/versions/70CEdLOI/kubejs_gui_2_1201-forge-1.0.0.jar"
+hash-format = "sha512"
+hash = "2752a87ebffff9239327405b69efe7593370a15f5a4b5384224297afd7d38ca6bfeb072ebc552da7900899e68bd2824dec38b5ccfee6ee860e1a548205b173bd"

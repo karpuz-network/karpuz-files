@@ -1,0 +1,11 @@
+{
+  "$schema-notu": "Karpuz Network'e ait (kendi yazdigimiz) veya resmi API indirmesi kapali modlar burada eslenir.",
+  "aciklama": "Anahtar: mods/ klasorundeki jar dosya adi. url: packwiz metafile'ina yazilacak resmi indirme adresi.",
+  "mods": {
+    "karpuzbadge-1.0.0.jar": {
+      "name": "Karpuz Badge",
+      "slug": "karpuzbadge",
+      "url": "https://raw.githubusercontent.com/karpuz-network/karpuz-files/main/private-mods/karpuzbadge-1.0.0.jar"
+    }
+  }
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.5.0
+
+- Mod indirmeleri Cloudflare R2 ZIP arşivinden çıkarıldı; modlar artık `mods/*.pw.toml` metafile'larındaki resmî indirme linkleriyle (Modrinth / CurseForge CDN) doğrulanıp indiriliyor.
+- `mods-manifest.json` ve `pack.toml` içindeki `[karpuz]` bloğu kaldırıldı.
+- `index.toml` `packwiz refresh` ile kanonik üretiliyor; `options.txt` ve `servers.dat` `preserve = true` olarak işaretlendi.
+- Karpuz Network'e ait özel modlar (`karpuzbadge` vb.) `private-mods/` altında GitHub'da barındırılıyor.
+- Yerel JAR'lardan metafile üreten `scripts/packwiz_add_from_jars.py` ve yenilenen `scripts/validate_pack.py` eklendi; eski ZIP tabanlı betik kaldırıldı.
+
 ## 1.3.0
 
 - Oyuncuların KARPUZ LAUNCHER kullanımını yakından gösteren istemci rozeti eklendi.

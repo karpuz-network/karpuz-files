@@ -1,0 +1,8 @@
+name = "Sound Physics Remastered"
+filename = "sound-physics-remastered-forge-1.20.1-1.4.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6352/920/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
+hash-format = "sha256"
+hash = "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1"

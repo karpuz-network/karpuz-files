@@ -1,0 +1,8 @@
+name = "Balm"
+filename = "balm-forge-1.20.1-7.3.41-all.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8404/830/balm-forge-1.20.1-7.3.41-all.jar"
+hash-format = "sha256"
+hash = "053205e3dac0d19fcff4aa3d4f5e4df48d3398b54d446d65fb918c520429e11a"

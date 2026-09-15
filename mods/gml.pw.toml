@@ -1,0 +1,8 @@
+name = "GroovyModLoader (GML)"
+filename = "gml-4.0.11-all.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/6434/243/gml-4.0.11-all.jar"
+hash-format = "sha256"
+hash = "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4"

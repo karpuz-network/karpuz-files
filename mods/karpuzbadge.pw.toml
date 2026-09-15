@@ -1,0 +1,8 @@
+name = "Karpuz Badge"
+filename = "karpuzbadge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/karpuz-network/karpuz-files/main/private-mods/karpuzbadge-1.0.0.jar"
+hash-format = "sha256"
+hash = "a281226980eb234c361cef7e105888b4594d78b306172d371148266b6a66736c"

@@ -1,0 +1,8 @@
+name = "Sophisticated Backpacks"
+filename = "sophisticatedbackpacks-1.20.1-3.24.62.2017.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8503/63/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar"
+hash-format = "sha256"
+hash = "ffa11da88bde6ed6158bfba25e2e33005260b080a4558cc4f85be7baea9f9220"
