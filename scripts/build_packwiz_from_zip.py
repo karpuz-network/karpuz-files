@@ -48,6 +48,10 @@ def collect_game_files(repo: Path) -> list[dict[str, object]]:
             continue
         relative = path.relative_to(repo).as_posix()
         if relative in GAME_FILES or relative.startswith(GAME_ROOTS):
+            raw = path.read_bytes()
+            if b"\x00" not in raw and b"\r\n" in raw:
+                raw = raw.replace(b"\r\n", b"\n")
+                path.write_bytes(raw)
             files.append({"file": relative, "hash": sha256_path(path), "size": path.stat().st_size})
     return files
 

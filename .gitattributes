@@ -8,6 +8,7 @@
 *.yaml text eol=lf
 *.md text eol=lf
 *.mcmeta text eol=lf
+*.py text eol=lf
 
 # Binary files
 *.png binary

@@ -592,8 +592,8 @@ size = 533738
 
 [[files]]
 file = "options.txt"
-hash = "c0033cc77e6ca0bd5363585c4305881c611cb6fc6845ffb487d367cf30a43d6a"
-size = 10958
+hash = "dba6574a73fc148c12a068736077d36fdbce1a90e27a4403c79dfe9489e9c94a"
+size = 10676
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/assets/minecraft/textures/gui/widgets.png"
@@ -602,8 +602,8 @@ size = 17440
 
 [[files]]
 file = "resourcepacks/karpuz-resouce-pack-0.1/pack.mcmeta"
-hash = "ed3e82aa85d5c341fff8cb5328daa1eccf9814bb0dda45e7858ebcfe4432f087"
-size = 97
+hash = "3f52b1a681aff424ade001987b7eb60f1159067999a0520f996b2bcc10a1757f"
+size = 92
 
 [[files]]
 file = "servers.dat"

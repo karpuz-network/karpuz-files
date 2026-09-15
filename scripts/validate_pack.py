@@ -69,8 +69,22 @@ def main() -> None:
         if relative not in {"options.txt", "servers.dat"} and not relative.startswith(("config/", "resourcepacks/")):
             raise ValueError(f"Oyun dışı index dosyası: {relative}")
         local = ROOT.joinpath(*PurePosixPath(relative).parts)
-        if not local.is_file() or local.stat().st_size != expected_size or sha256(local) != expected_hash:
-            raise ValueError(f"Yerel paket dosyası index ile eşleşmiyor: {relative}")
+        if not local.is_file():
+            raise ValueError(f"Yerel paket dosyası bulunamadı: {relative}")
+        actual_size = local.stat().st_size
+        actual_hash = sha256(local)
+        if actual_size != expected_size or actual_hash != expected_hash:
+            hint = ""
+            try:
+                if b"\r\n" in local.read_bytes():
+                    hint = " (CRLF satır sonu tespit edildi, LF bekleniyor)"
+            except Exception:
+                pass
+            raise ValueError(
+                f"Yerel paket dosyası index ile eşleşmiyor: {relative}{hint} "
+                f"(beklenen: size={expected_size}, sha256={expected_hash} | "
+                f"mevcut: size={actual_size}, sha256={actual_hash})"
+            )
 
     if indexed_mods != set(mods):
         raise ValueError("Index ve mod manifestindeki mod listeleri farklı")
