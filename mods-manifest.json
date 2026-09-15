@@ -477,6 +477,16 @@
       "sha256": "5ecc6535596b5954f6293224be6b35805c64f4d4aedc2b9e32d9508dd529cabd"
     },
     {
+      "name": "embeddium-0.3.31+mc1.20.1.jar",
+      "size": 1320675,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+    },
+    {
+      "name": "oculus-mc1.20.1-1.8.0.jar",
+      "size": 2851119,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+    },
+    {
       "name": "Zeta-1.0-31.jar",
       "size": 1006518,
       "sha256": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e"
