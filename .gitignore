@@ -8,6 +8,7 @@ mods/*.jarbak
 
 # Local notlar ve taslaklar
 NOTES.md
+DETAILS.md
 
 # IDE & OS dosyalari
 .idea/

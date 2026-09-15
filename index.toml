@@ -17,8 +17,12 @@ file = "CHANGELOG.md"
 hash = "79d32e74fbee78e702f2e4ad1e5d3ffeee251a0637f9652b3e17b3f22f8da220"
 
 [[files]]
+file = "DETAILS.md"
+hash = "86e7513fa9d4c162845d67847bf5fe0d640df9e65e1b331a2180f60f33f798d6"
+
+[[files]]
 file = "NOTES.md"
-hash = "52dde0b714472917d061e9618d6f417d377d23231c704929055b914563fc8ef3"
+hash = "7d55e440553ba6cb5507241fa9f1e15267b04ec77eda9fe7ee7a72ee93410a2d"
 
 [[files]]
 file = "README.md"
@@ -285,6 +289,10 @@ file = "mods/economy-1.0.1.jar"
 hash = "6f4726e586300d0611c9972f89959be9711c4f25c48d60408e5aa5b19ddd318d"
 
 [[files]]
+file = "mods/embeddium-0.3.31+mc1.20.1.jar"
+hash = "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+
+[[files]]
 file = "mods/fancymenu_forge_3.9.9_MC_1.20.1.jar"
 hash = "686253f50d103e21cc04b8710ab9ba4ba788916ad852620040308f3f08512fab"
 
@@ -387,6 +395,10 @@ hash = "a267583495a8657246d195ae8b9a5121fea27c84ea921c3eb5caa778f9b05b57"
 [[files]]
 file = "mods/morejs-forge-1.20.1-0.10.1.jar"
 hash = "bffc387943fb6bdfef8fcb6857aaa285f0a33575c9ada3cd66f54352cdb82892"
+
+[[files]]
+file = "mods/oculus-mc1.20.1-1.8.0.jar"
+hash = "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
 
 [[files]]
 file = "mods/rhino-forge-2001.2.3-build.10.jar"
