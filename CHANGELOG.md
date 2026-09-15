@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.3.0
+
+- Oyuncuların KARPUZ LAUNCHER kullanımını yakından gösteren istemci rozeti eklendi.
+- Paket 95 etkin `.jar` dosyasıyla yeniden doğrulandı.
+
+## 1.2.0
+
+- Paket `modlars` klasöründeki 94 etkin `.jar` dosyasıyla yenilendi.
+- Beş devre dışı `.jarbak` dosyası paketin dışında bırakıldı.
+- Forge sürümü `47.4.22` olarak sabitlendi.
+- Mod arşivi, index ve manifest SHA-256 değerleri birlikte yenilendi.
+
+## 1.1.0
+
+- Güncel `mods.zip` kaynağından 91 benzersiz etkin mod için SHA-256 manifesti üretildi.
+- Birebir aynı Placebo kopyası ile `.jarbak` dosyaları kurulum listesinden çıkarıldı.
+- FancyMenu, resource pack, `options.txt` ve `servers.dat` dosyaları Packwiz indexine dâhil edildi.
+- Arşiv, index ve manifest arasında doğrulanabilir bütünlük zinciri kuruldu.
+- Sunucu erişimi gerektirmeyen yerel manifest üretim betiği eklendi.
+
 Tüm önemli değişiklikler bu dosyada belgelenecektir.
 
 Format [Keep a Changelog](https://keepachangelog.com/tr/1.1.0/) standardına uygundur.
